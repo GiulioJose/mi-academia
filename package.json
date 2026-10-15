@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "sass": "sass scss/main.scss estilos.css --no-source-map",
+    "sass:watch": "sass --watch scss/main.scss:estilos.css --no-source-map"
+  },
+  "devDependencies": {
+    "sass": "^1.105.1"
+  }
+}

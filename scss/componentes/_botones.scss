@@ -1,0 +1,39 @@
+
+button {
+  font: inherit;
+  padding: 11px 17px;
+  border: 1px solid var(--primario);
+  border-radius: 9px;
+  background: var(--primario);
+  color: #ffffff;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition:
+    background-color 0.15s,
+    border-color 0.15s;
+
+  // Efecto al pasar el ratón
+  &:hover:not(:disabled) {
+    background: var(--primario-hover);
+  }
+
+  // Botón deshabilitado
+  &:disabled {
+    opacity: 0.48;
+    cursor: not-allowed;
+  }
+
+  // Accesibilidad con teclado
+  &:focus-visible {
+    outline: 3px solid #8cb8e1;
+    outline-offset: 3px;
+  }
+}
+
+// Accesibilidad: reducir animaciones
+@media (prefers-reduced-motion: reduce) {
+  button {
+    transition: none;
+  }
+}

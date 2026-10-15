@@ -1,0 +1,27 @@
+
+// Contenedores de la página de inicio
+#modulos,
+#temas {
+  width: 100%;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 16px;
+  margin: 12px auto 24px;
+}
+
+// Contenedores del cuestionario
+#cuestionario,
+#resultados-finales {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 24px;
+  margin: 20px auto;
+  width: 100%;
+}
+
+// Ocultar elementos con atributo hidden
+[hidden] {
+  display: none !important;
+}

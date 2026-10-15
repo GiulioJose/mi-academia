@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Academia - Cuestionario</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+  <h1>Mi Academia</h1>
+
+  <div id="cuestionario">
+
+    <p id="contador"></p>
+    <p id="id-pregunta"></p>
+    <h2 id="pregunta"></h2>
+
+    <div class="acciones-pregunta">
+      <button id="favorito" type="button">
+        ☆ Guardar en favoritas
+      </button>
+
+      <button id="revisar" type="button">
+        ♧ Marcar para revisar
+      </button>
+    </div>
+
+    <div id="opciones"></div>
+
+    <div id="retroalimentacion">
+      <p id="resultado"></p>
+      <p id="respuesta-correcta"></p>
+      <p id="explicacion"></p>
+    </div>
+
+    <button id="siguiente" disabled>
+      Siguiente pregunta
+    </button>
+
+  </div>
+
+  <div id="resultados-finales" hidden>
+
+    <h2>Resultados del cuestionario</h2>
+
+    <p id="total-preguntas"></p>
+    <p id="total-aciertos"></p>
+    <p id="total-errores"></p>
+    <p id="porcentaje"></p>
+
+    <a href="./index.html">Nuevo cuestionario</a>
+
+  </div>
+
+  <p>
+    <a href="./index.html">Volver al inicio</a>
+  </p>
+
+  <script type="module" src="./js/cuestionario.js"></script>
+
+</body>
+</html>

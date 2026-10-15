@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Academia - Inicio</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+
+  <h1>Mi Academia</h1>
+  <p>Selecciona qué quieres estudiar</p>
+
+  <h2>¿Qué quieres hacer?</h2>
+
+  <select id="modo-estudio" aria-label="¿Qué quieres hacer?">
+    <option value="evaluacion">Autoevaluación</option>
+    <option value="revision">Estudiar o revisar preguntas</option>
+  </select>
+
+  <h2>1. Materia</h2>
+  <select id="materia">
+    <option value="">Selecciona una materia</option>
+  </select>
+
+  <h2>2. Módulos</h2>
+  <div id="modulos"></div>
+
+  <h2>3. Temas</h2>
+  <div id="temas"></div>
+
+  <h2>4. Cantidad de preguntas</h2>
+
+  <label for="cantidad">
+    ¿Cuántas preguntas quieres estudiar?
+  </label>
+
+  <select id="cantidad">
+    <option value="todas">Todas las disponibles</option>
+    <option value="5">5 preguntas</option>
+    <option value="10">10 preguntas</option>
+    <option value="20">20 preguntas</option>
+    <option value="30">30 preguntas</option>
+    <option value="50">50 preguntas</option>
+    <option value="100">100 preguntas</option>
+  </select>
+
+  <button id="comenzar" disabled>
+    Comenzar cuestionario
+  </button>
+
+  <hr>
+
+  <h2>Mis repasos</h2>
+
+  <p>
+    Preguntas favoritas:
+    <strong id="cantidad-favoritas">0</strong>
+  </p>
+
+  <button id="repasar-favoritas" disabled>
+    ★ Repasar favoritas
+  </button>
+
+  <p>
+    Preguntas falladas:
+    <strong id="cantidad-falladas">0</strong>
+  </p>
+
+  <button id="repasar-falladas" disabled>
+    ↻ Repasar falladas
+  </button>
+
+  <p>
+    Preguntas pendientes de revisar:
+    <strong id="cantidad-revision">0</strong>
+  </p>
+
+  <button id="repasar-revision" disabled>
+    ☑ Pendientes de revisar
+  </button>
+
+  <script type="module" src="./js/inicio.js"></script>
+
+</body>
+
+</html>

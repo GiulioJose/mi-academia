@@ -1,0 +1,272 @@
+
+/* Página de estudio y revisión */
+
+#revision {
+  width: 100%;
+  max-width: 850px;
+  margin: 20px auto;
+}
+
+/* Contador e identificador */
+#contador-revision,
+#id-revision {
+  font-size: 0.9rem;
+  color: var(--secundario);
+}
+
+#contador-revision {
+  font-weight: 700;
+}
+
+#id-revision {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+/* Enunciado */
+#pregunta-revision {
+  font-size: clamp(1.15rem, 2.8vw, 1.5rem);
+  line-height: 1.4;
+  margin: 26px 0 18px;
+}
+
+/* Imagen */
+#imagen-revision {
+  margin: 16px 0;
+
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+}
+
+/* Opciones */
+#opciones-revision {
+  display: grid;
+  gap: 11px;
+
+  p {
+    margin: 0;
+    padding: 14px;
+    min-height: 50px;
+
+    background: #ffffff;
+    color: var(--texto);
+    border: 1px solid var(--borde);
+    border-radius: 8px;
+    font-weight: 500;
+  }
+
+  /* Respuesta correcta */
+  p[style*="font-weight: bold"] {
+    background: #ecfdf5;
+    border-color: #16a34a;
+  }
+}
+
+
+/* Explicación */
+#explicacion-revision {
+  background: #ffffff;
+  color: #475569;
+  border: 1px solid var(--borde);
+  border-radius: 8px;
+  padding: 14px;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+/* Acciones */
+#editar-revision,
+#quitar-revision {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+/* Navegación */
+.navegacion-revision {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 20px;
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Móviles */
+@media (max-width: 600px) {
+  .navegacion-revision {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* ==================================
+   Formulario de edición de preguntas
+   ================================== */
+
+   #formulario-edicion {
+    margin: 24px 0;
+    padding: 22px;
+    background: #f8fafc;
+    border: 1px solid var(--borde);
+    border-radius: 10px;
+  
+    // Mantener oculto el formulario cuando corresponda
+    &[hidden] {
+      display: none;
+    }
+  
+    h3 {
+      margin: 20px 0 12px;
+  
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+  
+    label {
+      display: block;
+      margin: 14px 0 7px;
+      font-weight: 600;
+      color: var(--texto);
+    }
+  
+    textarea,
+    select {
+      display: block;
+      width: 100%;
+      box-sizing: border-box;
+      padding: 12px;
+      font: inherit;
+      color: var(--texto);
+      background: #ffffff;
+      border: 1px solid var(--borde);
+      border-radius: 8px;
+  
+      &:focus {
+        outline: 2px solid var(--primario);
+        outline-offset: 2px;
+      }
+    }
+  
+    textarea {
+      resize: vertical;
+      line-height: 1.5;
+    }
+  }
+  
+  /* Opciones de respuesta editables */
+  #editar-opciones {
+    display: grid;
+    gap: 8px;
+  }
+  
+  /* Botones Guardar y Cancelar */
+  .acciones-edicion {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin-top: 24px;
+  
+    button {
+      width: 100%;
+    }
+  }
+  
+  /* Adaptación a móviles */
+  @media (max-width: 600px) {
+    #formulario-edicion {
+      padding: 14px;
+    }
+  
+    .acciones-edicion {
+      grid-template-columns: 1fr;
+    }
+  }
+  
+  /* Ocultar edición en pantallas pequeñas */
+@media (max-width: 600px) {
+  #editar-revision {
+    display: none;
+  }
+}
+
+// Imágenes de las preguntas
+#imagen-revision {
+  margin: 1rem 0;
+  text-align: center;
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 400px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+}
+
+// Campo de imagen del editor
+#editar-imagen {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.75rem;
+  margin: 0.5rem 0 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font: inherit;
+}
+
+// Vista previa
+#vista-previa-imagen {
+  margin: 1rem 0;
+  text-align: center;
+
+  img {
+    display: block;
+    max-width: 100%;
+    max-height: 300px;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+}
+#exportar-cambios {
+  display: block;
+  width: 100%;
+  margin: 12px 0 20px;
+  padding: 14px 20px;
+
+  background-color: #2563eb;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+
+  font-weight: 600;
+  cursor: pointer;
+
+  &:hover:not(:disabled) {
+    background-color: #1d4ed8;
+  }
+
+  &:disabled {
+    background-color: #94a3b8;
+    cursor: not-allowed;
+  }
+}
+
+@media (max-width: 768px) {
+  #exportar-cambios {
+    display: none;
+  }
+}

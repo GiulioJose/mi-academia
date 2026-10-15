@@ -1,0 +1,43 @@
+
+select {
+  font: inherit;
+  display: block;
+  width: 100%;
+  max-width: 760px;
+  padding: 12px 14px;
+  border: 1px solid var(--borde);
+  border-radius: 9px;
+  background: #ffffff;
+  color: var(--texto);
+}
+
+// Casillas de selección
+input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  accent-color: var(--primario);
+}
+
+// Accesibilidad con teclado
+select,
+input,
+a {
+  &:focus-visible {
+    outline: 3px solid #8cb8e1;
+    outline-offset: 3px;
+  }
+}
+
+// Selector de cantidad de preguntas
+label[for="cantidad"] {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
+
+#cantidad {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+  box-sizing: border-box;
+}

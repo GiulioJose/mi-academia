@@ -1,0 +1,62 @@
+
+// ORDENADORES
+// Pantallas de 900px o más
+
+@media (min-width: 900px) {
+  body {
+    padding-top: 54px;
+  }
+
+  #cuestionario,
+  #resultados-finales {
+    padding: 36px 42px;
+  }
+}
+
+// TABLETS Y MÓVILES
+// Pantallas de 768px o menos
+
+@media (max-width: 768px) {
+  #cantidad,
+  #favorito {
+    width: 100%;
+  }
+}
+
+// MÓVILES
+// Pantallas de 600px o menos
+
+@media (max-width: 600px) {
+  body {
+    padding: 22px 16px 44px;
+  }
+
+  h2 {
+    margin-top: 24px;
+  }
+
+  #cuestionario,
+  #resultados-finales {
+    padding: 20px 16px;
+  }
+
+  button,
+  select {
+    min-height: 46px;
+  }
+
+  #modulos,
+  #temas {
+    padding: 12px 14px;
+  }
+
+  #opciones {
+    .opcion {
+      min-height: 52px;
+    }
+  }
+
+  #pregunta {
+    margin-top: 22px;
+  }
+}

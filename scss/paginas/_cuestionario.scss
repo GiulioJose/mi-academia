@@ -1,0 +1,112 @@
+
+// Información de la pregunta
+#contador,
+#id-pregunta {
+  font-size: 0.9rem;
+  color: var(--secundario);
+}
+
+#contador {
+  font-weight: 700;
+}
+
+#id-pregunta {
+  font-family: ui-monospace, SFMono-Regular, Consolas, monospace;
+}
+
+// Contenedor de acciones de la pregunta
+.acciones-pregunta {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin: 14px 0 22px;
+}
+
+// Botones de favoritas y revisión
+#favorito,
+#revisar {
+  width: 100%;
+  min-width: 0;
+  min-height: 46px;
+  padding: 12px 10px;
+
+  background: #ffffff;
+  color: var(--primario);
+  border-color: var(--borde);
+  font-weight: 500;
+  font-size: 0.92rem;
+  text-align: center;
+
+  &:hover:not(:disabled) {
+    background: #edf2f7;
+  }
+}
+
+// En móviles, los botones se apilan
+@media (max-width: 600px) {
+  .acciones-pregunta {
+    grid-template-columns: 1fr;
+  }
+}
+
+// Texto de la pregunta
+#pregunta {
+  font-size: clamp(1.15rem, 2.8vw, 1.5rem);
+  line-height: 1.4;
+  margin: 26px 0 18px;
+}
+
+// Opciones de respuesta
+#opciones {
+  display: grid;
+  gap: 11px;
+
+  .opcion {
+    width: 100%;
+    min-height: 50px;
+    text-align: left;
+
+    background: #ffffff;
+    color: var(--texto);
+    border-color: var(--borde);
+    font-weight: 500;
+
+    &:hover:not(:disabled) {
+      background: #eef3f8;
+      border-color: #9eb0c3;
+    }
+
+    &:disabled {
+      opacity: 0.75;
+    }
+  }
+}
+
+// Retroalimentación
+#retroalimentacion {
+  margin: 22px 0;
+}
+
+#resultado {
+  font-weight: 700;
+}
+
+#respuesta-correcta {
+  font-weight: 600;
+}
+
+#explicacion {
+  color: #475569;
+}
+
+// Botón para avanzar
+#siguiente {
+  width: 100%;
+}
+
+// Pantalla de resultados
+#resultados-finales {
+  h2 {
+    margin-top: 0;
+  }
+}

@@ -1,0 +1,762 @@
+[
+  {
+    "id": "CIB-M01-T01-001",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Por qué la seguridad informática es crítica para una empresa?",
+    "opciones": [
+      "Porque la actividad y viabilidad empresarial dependen del tratamiento seguro de la información.",
+      "Porque todas las empresas fabrican software.",
+      "Porque elimina la necesidad de almacenar datos."
+    ],
+    "correcta": 0,
+    "explicacion": "La información es esencial para operar, competir y atender a los clientes; perderla o comprometerla puede paralizar la actividad.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-002",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué ventaja principal aporta el intercambio de información en tiempo real?",
+    "opciones": [
+      "Reduce a cero los ataques informáticos.",
+      "Incrementa la productividad y competitividad de la empresa.",
+      "Sustituye a todos los empleados.",
+      "Impide el acceso remoto a los datos."
+    ],
+    "correcta": 1,
+    "explicacion": "El intercambio ágil de información facilita las operaciones y mejora la productividad y la competitividad.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-003",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué riesgo se destaca al intercambiar archivos a través de internet?",
+    "opciones": [
+      "Que los archivos solo puedan leerse en la oficina.",
+      "Que el almacenamiento se vuelva exclusivamente físico.",
+      "Que la información insuficientemente protegida se utilice con fines delictivos."
+    ],
+    "correcta": 2,
+    "explicacion": "Internet es una red compartida; los datos que circulan por ella requieren protección adecuada.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-004",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál de estas consecuencias puede sufrir una empresa cuyos datos quedan inutilizados tras un ataque?",
+    "opciones": [
+      "Pérdidas económicas, abandono de clientes y daños reputacionales.",
+      "Únicamente una disminución del espacio en disco.",
+      "La desaparición automática de sus obligaciones legales.",
+      "Un aumento garantizado de ventas."
+    ],
+    "correcta": 0,
+    "explicacion": "El manual señala pérdidas de ventas, posibles reclamaciones de clientes y perjuicios al prestigio de la empresa.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-005",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En el ejemplo empresarial del manual, ¿qué pérdida diaria de ventas se estima si los datos dejan de estar operativos?",
+    "opciones": [
+      "Más de 4.000 euros.",
+      "Más de 40.000 euros.",
+      "Exactamente 10 millones de euros.",
+      "Menos de 500 euros."
+    ],
+    "correcta": 1,
+    "explicacion": "El supuesto de la empresa de tamaño medio estima pérdidas superiores a 40.000 euros por día de inoperatividad.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-006",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué medida organizativa propone el manual para proteger los datos empresariales?",
+    "opciones": [
+      "Eliminar todos los puestos técnicos.",
+      "Dejar la seguridad exclusivamente en manos de cada cliente.",
+      "Crear puestos especializados e incluso un departamento de seguridad."
+    ],
+    "correcta": 2,
+    "explicacion": "La especialización de tareas y la existencia de responsables específicos permiten gestionar mejor la protección de los datos.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-007",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Según el manual, ¿de quién debería depender directamente el departamento encargado de ciberseguridad?",
+    "opciones": [
+      "Del máximo responsable de la gestión de la empresa.",
+      "Exclusivamente del departamento de ventas.",
+      "De los proveedores de equipos.",
+      "Del personal de recepción."
+    ],
+    "correcta": 0,
+    "explicacion": "Se propone que la seguridad tenga relevancia organizativa y dependencia directa de la dirección.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-008",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En una pequeña compañía de software, ¿cuáles son las tres áreas que muestra el primer organigrama?",
+    "opciones": [
+      "Compras, ventas y logística.",
+      "Desarrollo, mantenimiento e infraestructura.",
+      "Marketing, recursos humanos y producción."
+    ],
+    "correcta": 1,
+    "explicacion": "El primer organigrama del tema divide las funciones técnicas en desarrollo, mantenimiento e infraestructura.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-009",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la función principal del área de desarrollo en el ejemplo de empresa de software?",
+    "opciones": [
+      "Gestionar únicamente las nóminas.",
+      "Proteger físicamente el edificio.",
+      "Crear el producto o servicio de software que necesita el cliente.",
+      "Contratar los suministros eléctricos."
+    ],
+    "correcta": 2,
+    "explicacion": "Desarrollo analiza los requisitos del cliente y produce el código del producto o servicio.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-010",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué profesional analiza el alcance y las características de la solución solicitada por un cliente?",
+    "opciones": [
+      "El analista.",
+      "El técnico de limpieza.",
+      "El administrador de seguridad exclusivamente."
+    ],
+    "correcta": 0,
+    "explicacion": "El analista recoge y evalúa los requisitos y transmite al desarrollador la planificación y las instrucciones.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-011",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Según la distribución de funciones propuesta, ¿quién debe pedir aclaraciones al cliente sobre los requisitos del producto?",
+    "opciones": [
+      "Siempre el programador, sin intermediarios.",
+      "El analista o, si existe, un perfil de ingeniería comercial.",
+      "El administrador de bases de datos.",
+      "El técnico de redes."
+    ],
+    "correcta": 1,
+    "explicacion": "El manual asigna la comunicación de aclaraciones al analista o a un perfil comercial técnico, no al desarrollador.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-012",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué comprende el backend descrito en el área de mantenimiento?",
+    "opciones": [
+      "Únicamente el diseño gráfico.",
+      "Solo las campañas publicitarias.",
+      "Elementos lógicos y físicos, como bases de datos, servidores y conexiones."
+    ],
+    "correcta": 2,
+    "explicacion": "El backend incluye componentes lógicos y físicos necesarios para el funcionamiento del servicio.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-013",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Por qué se recomienda separar las funciones de técnico de redes y técnico de mantenimiento cuando sea posible?",
+    "opciones": [
+      "Porque la especialización mejora el desempeño de cada función.",
+      "Porque así se eliminan los servidores.",
+      "Porque ambos puestos carecen de tareas relacionadas.",
+      "Porque las redes dejan de necesitar mantenimiento."
+    ],
+    "correcta": 0,
+    "explicacion": "La separación de roles permite que cada profesional se especialice en su ámbito.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-014",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En el organigrama de la pequeña empresa de software, ¿qué área vela por la integridad y seguridad de los datos?",
+    "opciones": [
+      "Producción.",
+      "Infraestructura.",
+      "Ventas."
+    ],
+    "correcta": 1,
+    "explicacion": "Infraestructura incluye los perfiles responsables de bases de datos y de seguridad.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-015",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál de estas tareas corresponde al administrador de bases de datos según el manual?",
+    "opciones": [
+      "Crear anuncios para nuevos clientes.",
+      "Negociar contratos laborales.",
+      "Evitar corrupción de tablas y mantener la cohesión de los datos.",
+      "Diseñar exclusivamente el producto físico."
+    ],
+    "correcta": 2,
+    "explicacion": "El administrador de bases de datos cuida la consistencia y el funcionamiento de las estructuras de datos.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-016",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es una responsabilidad del administrador de seguridad?",
+    "opciones": [
+      "Establecer reglas para prevenir ataques, intrusiones y fugas de información.",
+      "Emitir todas las facturas de la empresa.",
+      "Diseñar los productos industriales."
+    ],
+    "correcta": 0,
+    "explicacion": "Este perfil se centra en las medidas de protección frente a accesos no deseados y filtraciones.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-017",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué tres áreas adicionales aparecen en el ejemplo de empresa que fabrica un producto físico?",
+    "opciones": [
+      "Sistemas, soporte y hosting.",
+      "Producción, administración e ingeniería.",
+      "Bases de datos, ciberseguridad y auditoría.",
+      "Desarrollo, mantenimiento e infraestructura exclusivamente."
+    ],
+    "correcta": 1,
+    "explicacion": "En la empresa productora se incorporan producción, administración e ingeniería.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-018",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué función tiene el área de ingeniería en la empresa que produce bienes?",
+    "opciones": [
+      "Gestionar únicamente las incidencias de red.",
+      "Custodiar exclusivamente las contraseñas.",
+      "Conceptualizar, crear y diseñar el producto final."
+    ],
+    "correcta": 2,
+    "explicacion": "Ingeniería diseña el producto que posteriormente se fabricará y comercializará.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-019",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué departamento se ocupa de adquirir materias primas, seleccionar proveedores y controlar existencias?",
+    "opciones": [
+      "Compras.",
+      "Consultoría.",
+      "Soporte técnico.",
+      "Seguridad informática."
+    ],
+    "correcta": 0,
+    "explicacion": "El manual sitúa estas tareas en compras, dentro de administración.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-020",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué diferencia destaca el manual en una compañía dedicada a servicios informáticos o hosting?",
+    "opciones": [
+      "Elimina la necesidad de soporte a clientes.",
+      "Presenta mayor especialización y separación de funciones.",
+      "No utiliza infraestructura física."
+    ],
+    "correcta": 1,
+    "explicacion": "El organigrama de servicios informáticos separa sistemas, instalaciones, soporte, bases de datos y consultoría.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-021",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué equipo se ocupa de la infraestructura interna, como servidores, cortafuegos y conexiones?",
+    "opciones": [
+      "Consultoría.",
+      "Recursos humanos.",
+      "Sistemas.",
+      "Ventas."
+    ],
+    "correcta": 2,
+    "explicacion": "El área de sistemas administra la infraestructura tecnológica interna.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-022",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué función desempeña el equipo de instalaciones en una empresa de servicios informáticos?",
+    "opciones": [
+      "Implantar soluciones en las instalaciones del cliente con conocimientos de equipos y hardware.",
+      "Realizar únicamente campañas de marketing.",
+      "Dirigir la contabilidad anual."
+    ],
+    "correcta": 0,
+    "explicacion": "Instalaciones conoce el equipamiento y las condiciones técnicas necesarias para implantar soluciones en el cliente.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-023",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué área atiende rápidamente las consultas o incidencias del cliente por teléfono o canales en línea?",
+    "opciones": [
+      "Ingeniería de producto.",
+      "Soporte técnico.",
+      "Compras.",
+      "Dirección financiera."
+    ],
+    "correcta": 1,
+    "explicacion": "Soporte técnico es el equipo de respuesta rápida para los clientes.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-024",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué área realiza evaluaciones de calidad de instalaciones y productos?",
+    "opciones": [
+      "Tesorería.",
+      "Producción.",
+      "Consultoría."
+    ],
+    "correcta": 2,
+    "explicacion": "Consultoría comprueba la calidad de las instalaciones realizadas y de los productos ofrecidos.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-025",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa la expresión C-Level en el contexto organizativo del manual?",
+    "opciones": [
+      "Cargos directivos de alto nivel identificados por la palabra Chief.",
+      "Un nivel de cifrado de archivos.",
+      "Una clasificación de dispositivos de almacenamiento.",
+      "Un tipo de red inalámbrica."
+    ],
+    "correcta": 0,
+    "explicacion": "La nomenclatura C-Level agrupa altos cargos empresariales cuyos títulos suelen comenzar por Chief.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-026",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué cargo representa CEO?",
+    "opciones": [
+      "Chief Engineering Operator.",
+      "Chief Executive Officer.",
+      "Chief External Organizer."
+    ],
+    "correcta": 1,
+    "explicacion": "CEO corresponde a Chief Executive Officer, el cargo ejecutivo de máximo rango.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-027",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significan las siglas CISO?",
+    "opciones": [
+      "Chief Internet Systems Operator.",
+      "Chief Internal Sales Officer.",
+      "Chief Information Security Officer.",
+      "Chief Infrastructure Support Organizer."
+    ],
+    "correcta": 2,
+    "explicacion": "CISO significa Chief Information Security Officer y se vincula a la dirección de seguridad de la información.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-028",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué cargo identifica el manual como pieza clave para gestionar el tratamiento de la información empresarial?",
+    "opciones": [
+      "CIO, Chief Information Officer.",
+      "CMO, Chief Marketing Officer.",
+      "CHRO, Chief Human Resources Officer."
+    ],
+    "correcta": 0,
+    "explicacion": "El CIO se ocupa estratégicamente del tratamiento de la información de la compañía.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-029",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué perfil combina el CIO según el manual?",
+    "opciones": [
+      "Solo experiencia comercial sin formación técnica.",
+      "Conocimientos informáticos y comprensión de las repercusiones legales de la información.",
+      "Únicamente conocimientos de diseño industrial.",
+      "Solo tareas de atención telefónica."
+    ],
+    "correcta": 1,
+    "explicacion": "El CIO suele tener perfil técnico y conocimientos sobre los aspectos legales de la información.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-030",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué cargo puede complementar al CIO en empresas grandes o tecnológicas?",
+    "opciones": [
+      "CHRO.",
+      "CMO.",
+      "CTO, Chief Technology Officer."
+    ],
+    "correcta": 2,
+    "explicacion": "El manual señala que el CTO puede complementar al CIO cuando la organización tiene suficiente dimensión.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-031",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué recomienda el manual si una empresa no tiene tamaño suficiente para incorporar un CIO propio?",
+    "opciones": [
+      "Externalizar sus funciones para asegurar la gestión de la información.",
+      "Renunciar a cualquier gestión de seguridad.",
+      "Delegar todas las decisiones en los clientes.",
+      "Guardar toda la información sin controles."
+    ],
+    "correcta": 0,
+    "explicacion": "Aunque no exista un CIO interno, el manual recomienda contratar externamente esas funciones.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-032",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuáles son los dos modelos principales de almacenamiento de datos descritos en el tema?",
+    "opciones": [
+      "Solo memorias USB y papel.",
+      "Servidores propios y servicios de cloud computing.",
+      "Correo electrónico y redes sociales."
+    ],
+    "correcta": 1,
+    "explicacion": "El manual contrapone la infraestructura propia al almacenamiento y procesamiento en centros de datos de terceros.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-033",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué caracteriza al cloud computing según el material?",
+    "opciones": [
+      "Exige comprar físicamente todos los servidores.",
+      "Impide acceder por internet a los recursos.",
+      "Ofrece almacenamiento y procesamiento remoto, frecuentemente con pago por uso.",
+      "No necesita centros de datos."
+    ],
+    "correcta": 2,
+    "explicacion": "Los proveedores de nube facilitan recursos desde sus centros de datos mediante internet y modelos de pago por uso.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-034",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué costes debe asumir normalmente una empresa que utiliza servidores propios?",
+    "opciones": [
+      "Hardware, espacio, electricidad, climatización y personal administrador.",
+      "Únicamente una suscripción mensual sin otros recursos.",
+      "Ninguno, porque los servidores son virtuales."
+    ],
+    "correcta": 0,
+    "explicacion": "Los servidores propios requieren infraestructura física, energía, refrigeración y personal de administración.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-035",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa escalabilidad en el contexto de cloud computing?",
+    "opciones": [
+      "Que todos los datos se almacenan en un solo ordenador.",
+      "Que los recursos pueden ajustarse al crecimiento de las necesidades de la empresa.",
+      "Que los servidores nunca pueden ampliarse.",
+      "Que cada usuario necesita un centro de datos propio."
+    ],
+    "correcta": 1,
+    "explicacion": "La escalabilidad permite aumentar o adaptar recursos de procesamiento y almacenamiento según la demanda.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-036",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué ventaja económica asocia el manual a la escalabilidad en la nube?",
+    "opciones": [
+      "Se paga siempre por la máxima capacidad disponible.",
+      "Se elimina la necesidad de cualquier conexión.",
+      "Se paga por los recursos que se necesitan."
+    ],
+    "correcta": 2,
+    "explicacion": "El modelo descrito adapta los recursos y el coste al uso de la empresa.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-037",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cómo explica el manual la alta disponibilidad de los proveedores cloud?",
+    "opciones": [
+      "Mediante copias de la información en otros centros de datos para responder ante fallos.",
+      "Guardando los datos exclusivamente en un único servidor.",
+      "Desconectando la infraestructura de todas las redes.",
+      "Eliminando todas las copias de seguridad."
+    ],
+    "correcta": 0,
+    "explicacion": "La redundancia entre centros de datos permite seguir accediendo a la información si un centro falla.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-038",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si un centro de datos cloud queda fuera de servicio, ¿qué mecanismo descrito ayuda a mantener el acceso a la información?",
+    "opciones": [
+      "La reducción de la plantilla.",
+      "La existencia de copias en otros centros de datos.",
+      "La eliminación de las conexiones a internet."
+    ],
+    "correcta": 1,
+    "explicacion": "El material relaciona la disponibilidad con disponer de réplicas en centros alternativos.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-039",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es una preocupación de seguridad que plantea el manual sobre el almacenamiento en la nube?",
+    "opciones": [
+      "Que no permite procesar información.",
+      "Que solo admite documentos de papel.",
+      "Qué garantías de confidencialidad ofrece el proveedor y qué sucede si sufre un ataque.",
+      "Que no existe ningún proveedor mundial."
+    ],
+    "correcta": 2,
+    "explicacion": "El tema invita a valorar la confidencialidad, los incidentes y la continuidad del proveedor.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-040",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué afirma el manual sobre la vulnerabilidad de sistemas propios y sistemas cloud conectados a internet?",
+    "opciones": [
+      "Ambos pueden presentar vulnerabilidades y necesitan protección.",
+      "Los sistemas cloud son siempre invulnerables.",
+      "Los servidores propios nunca sufren ataques."
+    ],
+    "correcta": 0,
+    "explicacion": "El material subraya que cualquier sistema conectado a internet puede ser vulnerable, independientemente de su modelo.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-041",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Según la conclusión del tema, ¿qué factor tiene especial peso al elegir entre servidores propios y cloud computing?",
+    "opciones": [
+      "El color de los equipos.",
+      "Los factores económicos, sin descuidar la protección de la información.",
+      "El número de impresoras de la oficina.",
+      "La antigüedad del mobiliario."
+    ],
+    "correcta": 1,
+    "explicacion": "El manual destaca la evaluación económica y la obligación de asegurar la información en ambos modelos.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-042",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si una empresa elige servidores propios, ¿quién debe asumir su protección según el manual?",
+    "opciones": [
+      "Únicamente los clientes.",
+      "Exclusivamente el proveedor de internet.",
+      "El área responsable de seguridad de la empresa."
+    ],
+    "correcta": 2,
+    "explicacion": "El departamento encargado de la seguridad debe asegurar los servidores de la organización.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-043",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si una empresa contrata cloud computing, ¿qué debe hacer el área de seguridad según el tema?",
+    "opciones": [
+      "Responsabilizarse de externalizar adecuadamente la seguridad con el proveedor.",
+      "Desentenderse por completo de los riesgos de los datos.",
+      "Eliminar todos los controles internos.",
+      "Permitir accesos sin autenticación."
+    ],
+    "correcta": 0,
+    "explicacion": "La externalización de infraestructura no elimina la necesidad de gestionar la seguridad de la información.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-044",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Una empresa necesita ampliar rápidamente su capacidad de procesamiento durante una campaña comercial. ¿Qué ventaja de la nube resulta más relevante?",
+    "opciones": [
+      "El bloqueo permanente de los recursos.",
+      "La escalabilidad.",
+      "La supresión de las redes."
+    ],
+    "correcta": 1,
+    "explicacion": "La escalabilidad permite adaptar los recursos a picos de demanda sin adquirir inmediatamente nuevos servidores físicos.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-045",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Una empresa quiere reducir el riesgo de interrupción si falla un centro de datos. ¿Qué característica del cloud computing debe valorar?",
+    "opciones": [
+      "El diseño del logotipo del proveedor.",
+      "La proximidad de los puestos comerciales.",
+      "La disponibilidad basada en redundancia entre centros.",
+      "El número de documentos impresos."
+    ],
+    "correcta": 2,
+    "explicacion": "La disponibilidad se apoya en sistemas redundantes y copias accesibles desde otros centros.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-046",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Por qué no basta con elegir entre nube y servidores propios para garantizar la seguridad?",
+    "opciones": [
+      "Porque ambos modelos requieren medidas de protección y responsables de aplicarlas.",
+      "Porque los datos dejan de existir al almacenarse.",
+      "Porque internet elimina automáticamente las amenazas."
+    ],
+    "correcta": 0,
+    "explicacion": "El modelo de almacenamiento no sustituye la gestión activa de seguridad.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-047",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En el organigrama de servicios informáticos, ¿qué perfil valida modificaciones o alteraciones en las tablas de datos?",
+    "opciones": [
+      "El responsable de marketing.",
+      "Administración de bases de datos.",
+      "El responsable de compras.",
+      "El jefe de producción."
+    ],
+    "correcta": 1,
+    "explicacion": "El manual asigna a la administración de bases de datos la integridad y cohesión de la información.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-048",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es una consecuencia jurídica potencial de un robo de datos de clientes, según el ejemplo del manual?",
+    "opciones": [
+      "Que la empresa quede exenta de obligaciones.",
+      "Que los datos robados pierdan automáticamente su valor.",
+      "Que los clientes puedan reclamar o demandar por el uso de sus datos."
+    ],
+    "correcta": 2,
+    "explicacion": "El supuesto señala que un incidente puede provocar reclamaciones y daños legales, además de pérdidas económicas.",
+    "imagen": null
+  },
+  {
+    "id": "CIB-M01-T01-049",
+    "materia": "ciberseguridad",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál de las siguientes afirmaciones sintetiza mejor el Tema 1?",
+    "opciones": [
+      "La información es un activo esencial que exige responsabilidades organizativas y protección tanto en servidores propios como en la nube.",
+      "La ciberseguridad solo importa a fabricantes de software.",
+      "Contratar un proveedor cloud elimina por completo el riesgo.",
+      "La productividad no guarda relación con el intercambio de datos."
+    ],
+    "correcta": 0,
+    "explicacion": "El tema conecta la importancia empresarial de la información, la organización de la seguridad y la elección del modelo de almacenamiento.",
+    "imagen": null
+  }
+]

@@ -1,0 +1,93 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Academia - Editor</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+
+  <h1>Mi Academia</h1>
+  <h2>Editor de preguntas</h2>
+
+  <p>
+    Revisa las preguntas en orden y corrige su contenido.
+  </p>
+
+  <div id="editor">
+
+    <h3>Seleccionar preguntas</h3>
+
+    <label for="modo-editor">Mostrar</label>
+    <select id="modo-editor">
+      <option value="tema">Preguntas por tema</option>
+      <option value="revision">Pendientes de revisar</option>
+    </select>
+
+    <div id="filtros-editor">
+
+      <label for="materia-editor">Materia</label>
+      <select id="materia-editor">
+        <option value="">Selecciona una materia</option>
+      </select>
+
+      <label for="modulo-editor">Módulo</label>
+      <select id="modulo-editor" disabled>
+        <option value="">Selecciona un módulo</option>
+      </select>
+
+      <label for="tema-editor">Tema</label>
+      <select id="tema-editor" disabled>
+        <option value="">Selecciona un tema</option>
+      </select>
+
+    </div>
+
+    <button id="cargar-editor" type="button" disabled>
+      Cargar preguntas
+    </button>
+
+    <section id="panel-pregunta" hidden>
+
+      <p id="contador-editor"></p>
+      <p id="id-editor"></p>
+
+      <h3 id="pregunta-editor"></h3>
+
+      <div id="imagen-editor"></div>
+
+      <div id="opciones-editor"></div>
+
+      <h4>Explicación</h4>
+      <p id="explicacion-editor"></p>
+
+      <button id="revision-editor" type="button">
+        Quitar de revisión
+      </button>
+
+      <div class="navegacion-editor">
+        <button id="anterior-editor" type="button">
+          Anterior
+        </button>
+
+        <button id="siguiente-editor" type="button">
+          Siguiente
+        </button>
+      </div>
+
+    </section>
+
+    <p id="mensaje-editor" role="status"></p>
+
+  </div>
+
+  <p>
+    <a href="./index.html">Volver al inicio</a>
+  </p>
+
+  <script type="module" src="./js/editor.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,24 @@
+
+// Botón para comenzar el cuestionario
+#comenzar {
+  display: block;
+  margin-top: 20px;
+  width: 100%;
+}
+
+// Botones para repasar preguntas guardadas
+#repasar-favoritas,
+#repasar-falladas,
+#repasar-revision {
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+
+  background: #ffffff;
+  color: var(--primario);
+
+  // Efecto al pasar el ratón
+  &:hover:not(:disabled) {
+    background: #eaf0f6;
+  }
+}
