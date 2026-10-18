@@ -4,561 +4,1664 @@
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué significa DNS?",
+    "pregunta": "¿Qué define mejor una red informática?",
     "opciones": [
-      "Domain Name System",
-      "Digital Network Security",
-      "Data Name Server",
-      "Domain Number Service"
+      "Un único servidor que guarda todas las páginas web",
+      "Dispositivos que pueden intercambiar datos mediante enlaces y protocolos",
+      "Cualquier conjunto de aparatos conectados a la electricidad",
+      "Varios ordenadores que necesariamente comparten Internet"
     ],
-    "correcta": 0,
-    "explicacion": "DNS significa Domain Name System, sistema de nombres de dominio."
+    "correcta": 1,
+    "explicacion": "Una red permite comunicación entre dispositivos. Puede existir sin acceso a Internet y no requiere un servidor central."
   },
   {
     "id": "HAC-M01-T01-002",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Para qué se utiliza principalmente el DNS?",
+    "pregunta": "¿Cuál es la diferencia entre una LAN e Internet?",
     "opciones": [
-      "Cifrar archivos",
-      "Resolver nombres de dominio en registros como direcciones IP",
-      "Eliminar malware",
-      "Medir velocidad de descarga"
+      "Una LAN utiliza solo Wi-Fi e Internet solo cables",
+      "Una LAN cubre un ámbito local; Internet interconecta redes a escala mundial",
+      "Internet es una LAN con más de diez equipos",
+      "Una LAN siempre necesita una dirección IP pública"
     ],
     "correcta": 1,
-    "explicacion": "El DNS permite consultar registros asociados a un nombre, entre ellos direcciones IP."
+    "explicacion": "LAN describe un alcance local; Internet es una interconexión global de redes."
   },
   {
     "id": "HAC-M01-T01-003",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué es un dominio como google.com?",
+    "pregunta": "¿Qué describe una WAN?",
     "opciones": [
-      "Una dirección IPv6",
-      "Un puerto TCP",
-      "Un nombre legible dentro del sistema de nombres de dominio"
+      "Una red que obliga a usar IPv6",
+      "Un conjunto de dispositivos conectados a un mismo switch",
+      "Una red que conecta ubicaciones geográficamente separadas",
+      "Una red local que funciona solo con Wi-Fi"
     ],
     "correcta": 2,
-    "explicacion": "Los dominios permiten identificar recursos mediante nombres en lugar de memorizar IP."
+    "explicacion": "WAN significa Wide Area Network; puede conectar sedes distantes."
   },
   {
     "id": "HAC-M01-T01-004",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Cuál es una dirección IPv4 válida?",
+    "pregunta": "¿Qué significa WLAN?",
     "opciones": [
-      "2a00:1450::200e",
-      "google.com",
-      "443",
-      "172.217.171.46"
+      "Una red mundial exclusivamente inalámbrica",
+      "Una red de área local inalámbrica",
+      "Una LAN que solo admite servidores Linux",
+      "Un protocolo de cifrado de páginas web"
     ],
-    "correcta": 3,
-    "explicacion": "IPv4 se representa habitualmente mediante cuatro números decimales de 0 a 255 separados por puntos."
+    "correcta": 1,
+    "explicacion": "WLAN es Wireless Local Area Network: una LAN que usa enlaces inalámbricos, normalmente Wi-Fi."
   },
   {
     "id": "HAC-M01-T01-005",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Cuál es una dirección IPv6?",
+    "pregunta": "En el modelo cliente-servidor, ¿qué hace el cliente?",
     "opciones": [
-      "2001:4860:4860::8888",
-      "172.217.171.46",
-      "sundeva.shop"
+      "Debe tener más potencia que el servidor",
+      "Reenvía todos los paquetes entre redes",
+      "Es siempre el ordenador del administrador",
+      "Solicita recursos o servicios a otro sistema"
     ],
-    "correcta": 0,
-    "explicacion": "IPv6 utiliza notación hexadecimal con dos puntos; :: comprime grupos de ceros."
+    "correcta": 3,
+    "explicacion": "Cliente y servidor son roles: el cliente solicita; el servidor ofrece o responde."
   },
   {
     "id": "HAC-M01-T01-006",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Cuántos bits tiene una dirección IPv4?",
+    "pregunta": "¿Puede un mismo ordenador actuar como cliente y servidor?",
     "opciones": [
-      "128",
-      "32",
-      "64",
-      "16"
+      "No, son tipos de hardware incompatibles",
+      "Solo si tiene dos tarjetas de red",
+      "No, porque una dirección IP solo admite un rol",
+      "Sí, según los programas y comunicaciones que ejecute"
     ],
-    "correcta": 1,
-    "explicacion": "IPv4 utiliza 32 bits."
+    "correcta": 3,
+    "explicacion": "Los roles dependen del software y la comunicación, no de que sean máquinas distintas."
   },
   {
     "id": "HAC-M01-T01-007",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Cuántos bits tiene una dirección IPv6?",
+    "pregunta": "¿Qué función principal tiene un router?",
     "opciones": [
-      "32",
-      "48",
-      "128",
-      "256"
+      "Cifrar automáticamente todo el tráfico",
+      "Encaminar paquetes IP entre redes",
+      "Conectar únicamente dispositivos de una misma LAN por direcciones MAC",
+      "Resolver siempre nombres de dominio"
     ],
-    "correcta": 2,
-    "explicacion": "IPv6 utiliza 128 bits."
+    "correcta": 1,
+    "explicacion": "El router consulta información de encaminamiento para reenviar paquetes hacia otras redes."
   },
   {
     "id": "HAC-M01-T01-008",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué registro DNS contiene una dirección IPv4?",
+    "pregunta": "¿Qué función caracteriza a un switch Ethernet de capa 2?",
     "opciones": [
-      "MX",
-      "AAAA",
-      "TXT",
-      "A"
+      "Asignar obligatoriamente direcciones públicas",
+      "Elegir rutas entre redes IP remotas",
+      "Traducir dominios a direcciones IP",
+      "Reenviar tramas dentro de la red según direcciones MAC"
     ],
     "correcta": 3,
-    "explicacion": "El registro A asocia un nombre con una dirección IPv4."
+    "explicacion": "Un switch de capa 2 aprende direcciones MAC y conmuta tramas en la LAN."
   },
   {
     "id": "HAC-M01-T01-009",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué registro DNS contiene una dirección IPv6?",
+    "pregunta": "¿Qué hace un firewall?",
     "opciones": [
-      "AAAA",
-      "A",
-      "CNAME",
-      "NS"
+      "Convierte siempre IPv4 en IPv6",
+      "Reemplaza al servidor DNS",
+      "Aumenta automáticamente el ancho de banda",
+      "Permite o bloquea tráfico según reglas de seguridad"
     ],
-    "correcta": 0,
-    "explicacion": "El registro AAAA asocia un nombre con una dirección IPv6."
+    "correcta": 3,
+    "explicacion": "Un firewall filtra tráfico según reglas, por ejemplo origen, destino, protocolo y puerto."
   },
   {
     "id": "HAC-M01-T01-010",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué comando de Windows permite consultar DNS?",
+    "pregunta": "¿Para qué sirve un punto de acceso Wi-Fi?",
     "opciones": [
-      "taskkill",
-      "nslookup",
-      "mkdir",
-      "notepad"
+      "Para impedir el uso de direcciones MAC",
+      "Para asignar dominios DNS públicos",
+      "Para conectar dispositivos inalámbricos a una red",
+      "Para sustituir siempre a Internet"
     ],
-    "correcta": 1,
-    "explicacion": "nslookup consulta registros DNS desde PowerShell o CMD."
+    "correcta": 2,
+    "explicacion": "Un punto de acceso proporciona conectividad inalámbrica; puede estar integrado en un router doméstico."
   },
   {
     "id": "HAC-M01-T01-011",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué comando consulta registros IPv4 de google.com?",
+    "pregunta": "Si dos equipos se comunican dentro de la misma LAN sin salir a Internet, ¿siguen usando una red?",
     "opciones": [
-      "nslookup -type=AAAA google.com",
-      "ping -type=A google.com",
-      "nslookup -type=A google.com",
-      "ipconfig google.com"
+      "Solo si utilizan DNS público",
+      "Solo si los dos equipos son servidores",
+      "No, sin Internet no existe comunicación de red",
+      "Sí, una LAN puede funcionar sin Internet"
     ],
-    "correcta": 2,
-    "explicacion": "-type=A solicita registros DNS A, correspondientes a IPv4."
+    "correcta": 3,
+    "explicacion": "Internet no es requisito para una red local."
   },
   {
     "id": "HAC-M01-T01-012",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué comando consulta registros IPv6 de google.com?",
+    "pregunta": "¿Qué identifica una dirección IP de forma más precisa?",
     "opciones": [
-      "nslookup -type=A google.com",
-      "dig -type=IPv4 google.com",
-      "ping google.com",
-      "nslookup -type=AAAA google.com"
+      "De forma permanente a una persona",
+      "La marca de la tarjeta de red",
+      "Una interfaz o destino lógico dentro de una red IP",
+      "Siempre a un ordenador físico completo"
     ],
-    "correcta": 3,
-    "explicacion": "-type=AAAA solicita registros DNS AAAA, correspondientes a IPv6."
+    "correcta": 2,
+    "explicacion": "Las IP se asignan a interfaces y pueden cambiar; un equipo puede tener varias."
   },
   {
     "id": "HAC-M01-T01-013",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué herramienta habitual en Linux se usa para consultar DNS?",
+    "pregunta": "¿Cuántos bits tiene una dirección IPv4?",
     "opciones": [
-      "dig",
-      "grep",
-      "nano",
-      "ssh"
+      "64 bits",
+      "128 bits",
+      "48 bits",
+      "32 bits"
     ],
-    "correcta": 0,
-    "explicacion": "dig permite realizar consultas DNS y examinar sus respuestas."
+    "correcta": 3,
+    "explicacion": "IPv4 tiene 32 bits, normalmente representados como cuatro octetos decimales."
   },
   {
     "id": "HAC-M01-T01-014",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué hace dig sundeva.shop?",
+    "pregunta": "¿Cuántos bits tiene una dirección IPv6?",
     "opciones": [
-      "Abre el navegador",
-      "Consulta registros DNS del dominio",
-      "Instala un servidor web",
-      "Escanea todos los puertos"
+      "128 bits",
+      "256 bits",
+      "64 bits",
+      "32 bits"
     ],
-    "correcta": 1,
-    "explicacion": "dig consulta el DNS; por defecto suele solicitar registros A."
+    "correcta": 0,
+    "explicacion": "IPv6 utiliza 128 bits y se suele escribir en hexadecimal."
   },
   {
     "id": "HAC-M01-T01-015",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Dónde escribiste los comandos en Windows?",
+    "pregunta": "¿Cuál de estas cadenas tiene formato de IPv4 válido?",
     "opciones": [
-      "En la barra de direcciones",
-      "En el editor de imágenes",
-      "En PowerShell",
-      "En el BIOS"
+      "192.168.1.10",
+      "192.168.1.300",
+      "2001:db8::1",
+      "192.168.1"
     ],
-    "correcta": 2,
-    "explicacion": "PowerShell es una consola donde puedes ejecutar comandos."
+    "correcta": 0,
+    "explicacion": "IPv4 tiene cuatro octetos decimales, cada uno entre 0 y 255."
   },
   {
     "id": "HAC-M01-T01-016",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué indica el símbolo > en PS C:\\Users\\Usuario>?",
+    "pregunta": "¿Por qué 256.10.2.3 no es una dirección IPv4 válida?",
     "opciones": [
-      "Un error de DNS",
-      "Un servidor web",
-      "Una dirección IP",
-      "El lugar donde introducir el comando"
+      "Porque tiene cuatro grupos",
+      "Porque todas las IPv4 deben comenzar por 192",
+      "Porque un octeto no puede superar 255",
+      "Porque las IPv4 no admiten el número 10"
     ],
-    "correcta": 3,
-    "explicacion": "El prompt señala que la consola está lista para recibir instrucciones."
+    "correcta": 2,
+    "explicacion": "Cada octeto tiene 8 bits, con valores de 0 a 255."
   },
   {
     "id": "HAC-M01-T01-017",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Debes escribir PS C:\\Users\\Usuario> antes de cada comando?",
+    "pregunta": "¿Cuál es un ejemplo válido de dirección IPv6?",
     "opciones": [
-      "No, aparece automáticamente",
-      "Sí, siempre",
-      "Solo al consultar IPv6"
+      "www.ejemplo.com",
+      "300.2.2.2",
+      "2001:db8::1",
+      "192.168.1.1"
     ],
-    "correcta": 0,
-    "explicacion": "Solo escribes el comando después del prompt."
+    "correcta": 2,
+    "explicacion": "IPv6 se representa con grupos hexadecimales separados por dos puntos; :: comprime grupos de ceros."
   },
   {
     "id": "HAC-M01-T01-018",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "En nslookup, ¿qué representa Server: dns.google?",
+    "pregunta": "¿Qué significa :: en una dirección IPv6?",
     "opciones": [
-      "El nombre del sitio consultado",
-      "El servidor DNS que respondió",
-      "El nombre de tu portátil"
+      "Un error de sintaxis que invalida cualquier IPv6",
+      "Una secuencia comprimida de uno o más grupos de ceros",
+      "Una indicación de dirección IPv4 privada",
+      "Un separador de dirección y puerto"
     ],
     "correcta": 1,
-    "explicacion": "La línea Server identifica el resolvedor DNS usado en la consulta."
+    "explicacion": "La notación :: puede aparecer una vez para comprimir grupos consecutivos de ceros."
   },
   {
     "id": "HAC-M01-T01-019",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "En nslookup, ¿qué representa la primera Address bajo Server?",
+    "pregunta": "¿Qué diferencia describe correctamente IPv4 e IPv6?",
     "opciones": [
-      "La IP del sitio consultado",
-      "La IP de tu portátil",
-      "La dirección del servidor DNS consultado",
-      "El puerto HTTPS"
+      "IPv4 emplea nombres y IPv6 números",
+      "IPv4 usa 32 bits e IPv6 usa 128 bits",
+      "IPv4 es siempre privada e IPv6 siempre pública",
+      "IPv6 solo se usa en redes inalámbricas"
     ],
-    "correcta": 2,
-    "explicacion": "La primera Address bajo Server identifica al servidor DNS."
+    "correcta": 1,
+    "explicacion": "Ambas son versiones de IP; difieren en longitud y otros mecanismos."
   },
   {
     "id": "HAC-M01-T01-020",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "En nslookup, ¿qué representa Address bajo Name: google.com?",
+    "pregunta": "¿Qué caracteriza a una dirección IPv4 privada?",
     "opciones": [
-      "El servidor DNS consultado",
-      "La versión de Windows",
-      "El puerto de la conexión",
-      "Una dirección IP devuelta para google.com"
+      "No puede comunicarse con otros dispositivos",
+      "Está necesariamente cifrada",
+      "Solo existe en redes sin router",
+      "Pertenece a rangos reservados que no se enrutan directamente por Internet pública"
     ],
     "correcta": 3,
-    "explicacion": "La sección de respuesta contiene las direcciones asociadas al dominio consultado."
+    "explicacion": "Privada no significa secreta ni cifrada: describe su ámbito de direccionamiento."
   },
   {
     "id": "HAC-M01-T01-021",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué significa Non-authoritative answer?",
+    "pregunta": "¿Cuál de estas direcciones pertenece a un rango IPv4 privado?",
     "opciones": [
-      "La respuesta no viene directamente de un servidor autoritativo del dominio",
-      "El dominio está infectado",
-      "La consulta falló",
-      "No existe dirección IP"
+      "10.25.8.4",
+      "8.8.8.8",
+      "11.25.8.4",
+      "1.1.1.1"
     ],
     "correcta": 0,
-    "explicacion": "Un resolvedor recursivo puede entregar una respuesta no autoritativa válida."
+    "explicacion": "El bloque 10.0.0.0/8 es privado."
   },
   {
     "id": "HAC-M01-T01-022",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Por qué google.com puede devolver distintas IP en consultas sucesivas?",
+    "pregunta": "¿Cuál de estas direcciones pertenece al rango privado 192.168.0.0/16?",
     "opciones": [
-      "Porque PowerShell cambia los números al azar",
-      "Porque un dominio puede usar múltiples servidores y políticas de respuesta DNS",
-      "Porque IPv4 solo funciona una vez"
+      "193.168.200.5",
+      "192.167.200.5",
+      "192.168.200.5",
+      "192.169.1.5"
     ],
-    "correcta": 1,
-    "explicacion": "Grandes servicios usan varias IP y pueden variar las respuestas según la red o el momento."
+    "correcta": 2,
+    "explicacion": "El rango va de 192.168.0.0 a 192.168.255.255."
   },
   {
     "id": "HAC-M01-T01-023",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué significa que una respuesta DNS contenga registros A y AAAA?",
+    "pregunta": "¿Cuál de estas direcciones pertenece al rango privado 172.16.0.0/12?",
     "opciones": [
-      "Que hay dos dominios distintos",
-      "Que HTTPS está desactivado",
-      "Que hay direcciones IPv4 e IPv6 asociadas",
-      "Que la consulta es insegura"
+      "172.40.1.10",
+      "172.32.1.10",
+      "172.31.250.10",
+      "172.15.250.10"
     ],
     "correcta": 2,
-    "explicacion": "A representa IPv4 y AAAA representa IPv6."
+    "explicacion": "El bloque privado abarca 172.16.0.0 hasta 172.31.255.255."
   },
   {
     "id": "HAC-M01-T01-024",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué dirección era el servidor DNS en la práctica realizada?",
+    "pregunta": "¿Es privada cualquier dirección que empiece por 172?",
     "opciones": [
-      "172.217.171.46",
-      "104.21.48.123",
-      "2a00:1450:4003:818::200e",
-      "2001:4860:4860::8888"
+      "No, ninguna dirección 172 es privada",
+      "Sí, todo 172.0.0.0/8 es privado",
+      "Sí, pero solo si termina en .1",
+      "No, solo el rango 172.16.0.0 a 172.31.255.255 es privado por RFC 1918"
     ],
     "correcta": 3,
-    "explicacion": "La dirección 2001:4860:4860::8888 aparecía bajo Server: dns.google."
+    "explicacion": "Es un error común creer que todas las 172.x.x.x son privadas."
   },
   {
     "id": "HAC-M01-T01-025",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Cuál de estas IP apareció como respuesta IPv6 para google.com?",
+    "pregunta": "¿Cuáles son los tres bloques privados IPv4 principales?",
     "opciones": [
-      "2a00:1450:4003:818::200e",
-      "216.58.204.174",
-      "104.21.48.123"
+      "10.0.0.0/8, 172.16.0.0/12 y 192.168.0.0/16",
+      "8.8.8.0/24, 1.1.1.0/24 y 127.0.0.0/8",
+      "192.168.0.0/8, 172.16.0.0/8 y 10.0.0.0/24",
+      "10.0.0.0/8, 172.0.0.0/8 y 192.0.0.0/8"
     ],
     "correcta": 0,
-    "explicacion": "La consulta AAAA devolvió esa dirección IPv6 para google.com."
+    "explicacion": "Los tres rangos privados IPv4 están definidos por RFC 1918."
   },
   {
     "id": "HAC-M01-T01-026",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "En el ejercicio, ¿qué IP devolvió el DNS para sundeva.shop?",
+    "pregunta": "¿Una IP que no es privada es necesariamente una IP pública utilizable en Internet?",
     "opciones": [
-      "192.168.1.1",
-      "104.21.48.123",
-      "2001:4860:4860::8888",
-      "127.0.0.1"
+      "No, existen rangos reservados para otros usos",
+      "Sí, siempre que use máscara /24",
+      "Solo si empieza por 192",
+      "Sí, todas las demás son públicas y accesibles"
     ],
-    "correcta": 1,
-    "explicacion": "La respuesta del comando dig mostraba el registro A 104.21.48.123."
+    "correcta": 0,
+    "explicacion": "Hay direcciones de loopback, enlace local, documentación y otras reservas."
   },
   {
     "id": "HAC-M01-T01-027",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "En la salida dig: sundeva.shop. 300 IN A 104.21.48.123, ¿qué indica 300?",
+    "pregunta": "¿Para qué se utiliza normalmente 127.0.0.1?",
     "opciones": [
-      "El puerto de la tienda",
-      "El tamaño de la web",
-      "El TTL en segundos",
-      "El número de servidores"
+      "Como servidor DNS obligatorio",
+      "Como dirección de difusión de Internet",
+      "Para referirse al propio equipo (loopback)",
+      "Como puerta de enlace de cualquier red"
     ],
     "correcta": 2,
-    "explicacion": "El TTL indica cuánto tiempo puede almacenarse en caché el registro DNS."
+    "explicacion": "127.0.0.1 es una dirección de loopback IPv4; no representa un equipo remoto."
   },
   {
     "id": "HAC-M01-T01-028",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "En esa salida de dig, ¿qué indica A?",
+    "pregunta": "¿Qué significa localhost habitualmente?",
     "opciones": [
-      "La velocidad de la conexión",
-      "Un registro de correo",
-      "Un error de acceso",
-      "Un registro de dirección IPv4"
+      "El propio equipo donde se ejecuta el programa",
+      "Cualquier ordenador de la LAN",
+      "El servidor DNS del proveedor",
+      "El router de Internet"
     ],
-    "correcta": 3,
-    "explicacion": "A es el tipo de registro DNS para IPv4."
+    "correcta": 0,
+    "explicacion": "localhost suele resolverse a 127.0.0.1 y/o ::1."
   },
   {
     "id": "HAC-M01-T01-029",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "En esa salida de dig, ¿qué indica IN?",
+    "pregunta": "¿Qué es una dirección MAC?",
     "opciones": [
-      "La clase Internet del registro DNS",
-      "Que el servidor está en India",
-      "Que la IP es interna"
+      "Una dirección IPv6 abreviada",
+      "Una dirección DNS",
+      "Un número de puerto TCP",
+      "Un identificador de interfaz usado en tecnologías de enlace como Ethernet"
     ],
-    "correcta": 0,
-    "explicacion": "IN identifica la clase Internet de la consulta DNS."
+    "correcta": 3,
+    "explicacion": "La MAC opera en la capa de enlace; no cumple la misma función que la IP."
   },
   {
     "id": "HAC-M01-T01-030",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué herramienta usarías primero para averiguar la IPv4 de un dominio en PowerShell?",
+    "pregunta": "¿Qué diferencia existe entre IP y MAC?",
     "opciones": [
-      "notepad",
-      "nslookup -type=A dominio.com",
-      "shutdown",
-      "cd"
+      "Son dos nombres del mismo identificador",
+      "MAC es siempre pública e IP siempre privada",
+      "IP se usa para direccionamiento entre redes; MAC para comunicación de enlace local",
+      "IP identifica cables y MAC identifica dominios"
     ],
-    "correcta": 1,
-    "explicacion": "La consulta de tipo A devuelve registros IPv4 del dominio."
+    "correcta": 2,
+    "explicacion": "En Ethernet, las tramas usan MAC y los paquetes IP usan direcciones IP."
   },
   {
     "id": "HAC-M01-T01-031",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "Si en nslookup aparece Server: dns.google y Name: ejemplo.com, ¿qué nombre es el dominio consultado?",
+    "pregunta": "¿Qué significa un rango de direcciones IP?",
     "opciones": [
-      "dns.google",
-      "PowerShell",
-      "ejemplo.com",
-      "Windows"
+      "El conjunto de direcciones comprendidas entre ciertos límites",
+      "El número de puertos abiertos",
+      "El conjunto de nombres DNS de un dominio",
+      "El tiempo que tarda un paquete en llegar"
     ],
-    "correcta": 2,
-    "explicacion": "Name en la respuesta identifica el dominio al que corresponden los registros devueltos."
+    "correcta": 0,
+    "explicacion": "Un rango tiene límites inicial y final y puede describir un bloque de direcciones."
   },
   {
     "id": "HAC-M01-T01-032",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué comando solicitarías para comprobar solo el registro AAAA de sundeva.shop?",
+    "pregunta": "¿Qué determina una máscara de subred IPv4?",
     "opciones": [
-      "nslookup -type=A sundeva.shop",
-      "nslookup -type=AAAA sundeva.shop",
-      "nslookup -type=MX google.com",
-      "ping -AAAA sundeva.shop"
+      "Qué servidor DNS es más rápido",
+      "Qué contraseña utiliza el router",
+      "Qué programas pueden usar Internet",
+      "Qué bits corresponden al prefijo de red y cuáles quedan para host"
     ],
-    "correcta": 1,
-    "explicacion": "El tipo AAAA consulta direcciones IPv6 del dominio indicado."
+    "correcta": 3,
+    "explicacion": "La máscara separa la parte de red y la de host de una IPv4."
   },
   {
     "id": "HAC-M01-T01-033",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué significa que el comando nslookup vuelva al prompt sin error?",
+    "pregunta": "¿Qué expresa la notación CIDR /24?",
     "opciones": [
-      "Que Windows se ha reiniciado",
-      "Que se ha instalado un programa",
-      "Que el comando terminó y la consola está lista para otro",
-      "Que se ha borrado el DNS"
+      "Que se utiliza el puerto 24",
+      "Que el prefijo de red ocupa 24 bits",
+      "Que hay 24 dispositivos conectados",
+      "Que la IP tiene 24 bits en total"
     ],
-    "correcta": 2,
-    "explicacion": "El retorno al prompt indica que la ejecución ha finalizado."
+    "correcta": 1,
+    "explicacion": "CIDR expresa la longitud del prefijo; IPv4 tiene siempre 32 bits."
   },
   {
     "id": "HAC-M01-T01-034",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué diferencia existe entre dig y nslookup?",
+    "pregunta": "¿Cuál es la máscara IPv4 equivalente a /24?",
     "opciones": [
-      "Ambos consultan DNS, aunque su interfaz y salida son diferentes",
-      "dig cifra y nslookup descifra",
-      "nslookup solo funciona con IPv6",
-      "dig es un navegador"
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.128"
     ],
-    "correcta": 0,
-    "explicacion": "Las dos herramientas sirven para consultar DNS; dig es habitual en Linux y nslookup está disponible en Windows."
+    "correcta": 2,
+    "explicacion": "/24 representa 24 bits a 1 en la máscara: 255.255.255.0."
   },
   {
     "id": "HAC-M01-T01-035",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué afirmación sobre un servidor DNS y un servidor web es correcta?",
+    "pregunta": "¿Cuál es la notación CIDR equivalente a 255.255.0.0?",
     "opciones": [
-      "Son siempre el mismo equipo",
-      "El DNS entrega páginas HTML",
-      "El DNS responde consultas de nombres; el servidor web atiende solicitudes web",
-      "Ambos utilizan siempre el puerto 443"
+      "/32",
+      "/8",
+      "/16",
+      "/24"
     ],
     "correcta": 2,
-    "explicacion": "DNS y web cumplen funciones distintas, aunque pueden coexistir en una infraestructura."
+    "explicacion": "Dos octetos completos de unos equivalen a 16 bits de prefijo."
   },
   {
     "id": "HAC-M01-T01-036",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué puerto utiliza normalmente DNS para consultas convencionales?",
+    "pregunta": "¿Qué máscara corresponde a /25?",
     "opciones": [
-      "443",
-      "80",
-      "3389",
-      "53"
+      "255.255.255.192",
+      "255.255.0.0",
+      "255.255.255.0",
+      "255.255.255.128"
     ],
     "correcta": 3,
-    "explicacion": "DNS usa habitualmente el puerto 53 mediante UDP o TCP."
+    "explicacion": "/25 son 24 bits completos más un bit del último octeto (128)."
   },
   {
     "id": "HAC-M01-T01-037",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Cuál es la mejor forma de leer una salida de nslookup?",
+    "pregunta": "¿Qué significa 192.168.1.10/24?",
     "opciones": [
-      "Separar primero los datos del servidor DNS de los datos de la respuesta del dominio",
-      "Suponer que todas las IP son del sitio consultado",
-      "Ignorar el campo Name"
+      "La red contiene exactamente 24 equipos",
+      "El equipo usa el puerto 24",
+      "La IP del equipo es 192.168.1.10 y su prefijo de red tiene 24 bits",
+      "La IP tiene 24 bits de longitud"
     ],
-    "correcta": 0,
-    "explicacion": "Distinguir servidor consultado y respuesta evita confundir sus direcciones."
+    "correcta": 2,
+    "explicacion": "La barra indica longitud del prefijo, no puerto ni número de equipos."
   },
   {
     "id": "HAC-M01-T01-038",
     "materia": "repaso-hackfy",
     "modulo": "m01",
     "tema": "t01",
-    "pregunta": "¿Qué dato permite saber si una IP de respuesta DNS es IPv4?",
+    "pregunta": "¿Cuál es la dirección de red de 192.168.1.10/24?",
     "opciones": [
-      "Contiene la palabra HTTPS",
-      "Suele tener cuatro números decimales separados por puntos",
-      "Termina siempre en 443",
-      "Tiene grupos hexadecimales separados por dos puntos"
+      "192.168.0.0",
+      "192.168.1.10",
+      "192.168.1.255",
+      "192.168.1.0"
+    ],
+    "correcta": 3,
+    "explicacion": "Con /24, los primeros tres octetos forman la red y los 8 bits finales son de host."
+  },
+  {
+    "id": "HAC-M01-T01-039",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la dirección de difusión (broadcast) de 192.168.1.10/24?",
+    "opciones": [
+      "192.168.1.255",
+      "192.168.1.1",
+      "192.168.0.255",
+      "192.168.1.0"
+    ],
+    "correcta": 0,
+    "explicacion": "En una subred IPv4 /24 convencional, la dirección con todos los bits de host a 1 es broadcast."
+  },
+  {
+    "id": "HAC-M01-T01-040",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuántas direcciones IPv4 totales contiene una subred /24?",
+    "opciones": [
+      "256",
+      "255",
+      "254",
+      "24"
+    ],
+    "correcta": 0,
+    "explicacion": "Quedan 8 bits de host: 2^8 = 256 direcciones totales."
+  },
+  {
+    "id": "HAC-M01-T01-041",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuántas direcciones de host suelen ser utilizables en una subred IPv4 /24 convencional?",
+    "opciones": [
+      "254",
+      "256",
+      "128",
+      "255"
+    ],
+    "correcta": 0,
+    "explicacion": "De 256 direcciones, normalmente se reservan la dirección de red y la de broadcast."
+  },
+  {
+    "id": "HAC-M01-T01-042",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuántas direcciones IPv4 totales contiene una subred /25?",
+    "opciones": [
+      "25",
+      "256",
+      "128",
+      "126"
+    ],
+    "correcta": 2,
+    "explicacion": "Quedan 7 bits para host: 2^7 = 128 direcciones totales."
+  },
+  {
+    "id": "HAC-M01-T01-043",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué sucede al pasar de /24 a /25 en IPv4?",
+    "opciones": [
+      "El bloque se reduce a la mitad: de 256 a 128 direcciones",
+      "El bloque se duplica de 256 a 512",
+      "Se elimina la necesidad de router",
+      "La IP pasa de 32 a 25 bits"
+    ],
+    "correcta": 0,
+    "explicacion": "Aumentar un bit de prefijo deja un bit menos para hosts, por lo que el bloque se divide por dos."
+  },
+  {
+    "id": "HAC-M01-T01-044",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué función tiene una puerta de enlace predeterminada?",
+    "opciones": [
+      "Guardar archivos compartidos",
+      "Resolver siempre los dominios DNS",
+      "Asignar direcciones MAC",
+      "Enviar tráfico hacia otras redes cuando no existe una ruta más específica"
+    ],
+    "correcta": 3,
+    "explicacion": "La puerta de enlace suele ser el router de salida de la LAN."
+  },
+  {
+    "id": "HAC-M01-T01-045",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si tu equipo está en 192.168.1.10/24 y quiere llegar a 192.168.1.20, ¿qué es lo habitual?",
+    "opciones": [
+      "Consultar siempre DNS antes de enviar paquetes",
+      "Usar necesariamente una dirección IP pública",
+      "Enviar obligatoriamente todo al router de Internet",
+      "Comunicarse dentro de la red local sin pasar por la puerta de enlace predeterminada"
+    ],
+    "correcta": 3,
+    "explicacion": "Ambas direcciones pertenecen a 192.168.1.0/24; normalmente se comunican por la LAN."
+  },
+  {
+    "id": "HAC-M01-T01-046",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si tu equipo está en 192.168.1.10/24 y quiere llegar a 8.8.8.8, ¿qué es lo habitual?",
+    "opciones": [
+      "Usar un registro DNS MX",
+      "Cambiar automáticamente la máscara a /8",
+      "Enviar el tráfico hacia la puerta de enlace predeterminada",
+      "Enviar una trama directamente a la MAC de 8.8.8.8"
+    ],
+    "correcta": 2,
+    "explicacion": "El destino está fuera de 192.168.1.0/24, por lo que se utiliza una ruta, normalmente la puerta de enlace."
+  },
+  {
+    "id": "HAC-M01-T01-047",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es NAT en muchas redes domésticas?",
+    "opciones": [
+      "Traducción de direcciones y a menudo puertos para comunicar redes privadas con otras redes",
+      "Un protocolo de correo",
+      "Un registro DNS de tipo A",
+      "Una máscara de subred"
+    ],
+    "correcta": 0,
+    "explicacion": "NAT permite, por ejemplo, compartir una IP pública entre varios equipos privados."
+  },
+  {
+    "id": "HAC-M01-T01-048",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es un nombre de dominio?",
+    "opciones": [
+      "Un puerto de red",
+      "Una dirección MAC con letras",
+      "Una máscara IPv4",
+      "Un nombre legible como ejemplo.com utilizado en DNS"
+    ],
+    "correcta": 3,
+    "explicacion": "Los dominios organizan nombres que pueden asociarse a diferentes registros DNS."
+  },
+  {
+    "id": "HAC-M01-T01-049",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la función principal del DNS?",
+    "opciones": [
+      "Consultar información asociada a nombres, como direcciones IP",
+      "Asignar puertos TCP a programas",
+      "Cifrar todo el tráfico de Internet",
+      "Enviar paquetes entre routers"
+    ],
+    "correcta": 0,
+    "explicacion": "DNS permite resolver nombres y consultar otros registros."
+  },
+  {
+    "id": "HAC-M01-T01-050",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué indica un registro DNS A?",
+    "opciones": [
+      "Un alias de dominio",
+      "Una dirección IPv6",
+      "Una dirección IPv4",
+      "Un servidor de correo"
+    ],
+    "correcta": 2,
+    "explicacion": "A es el tipo de registro para direcciones IPv4."
+  },
+  {
+    "id": "HAC-M01-T01-051",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué indica un registro DNS AAAA?",
+    "opciones": [
+      "Cuatro direcciones IPv4",
+      "Una dirección MAC",
+      "Un registro de correo",
+      "Una dirección IPv6"
+    ],
+    "correcta": 3,
+    "explicacion": "AAAA contiene una dirección IPv6, no cuatro IPv4."
+  },
+  {
+    "id": "HAC-M01-T01-052",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué indica un registro DNS CNAME?",
+    "opciones": [
+      "Una dirección IPv4",
+      "Un puerto HTTPS",
+      "La máscara de subred",
+      "Un alias que apunta a otro nombre DNS"
+    ],
+    "correcta": 3,
+    "explicacion": "CNAME crea un alias; la resolución puede continuar sobre el nombre de destino."
+  },
+  {
+    "id": "HAC-M01-T01-053",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué indica un registro DNS MX?",
+    "opciones": [
+      "El tiempo de ida y vuelta",
+      "La dirección MAC del router",
+      "La versión de IPv6",
+      "Los servidores responsables de recibir correo de un dominio"
+    ],
+    "correcta": 3,
+    "explicacion": "MX significa Mail Exchanger y se usa para encaminamiento de correo."
+  },
+  {
+    "id": "HAC-M01-T01-054",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué indica un registro DNS NS?",
+    "opciones": [
+      "Los puertos TCP abiertos",
+      "Los usuarios registrados",
+      "Los servidores de nombres de una zona o delegación",
+      "Los routers de una LAN"
+    ],
+    "correcta": 2,
+    "explicacion": "NS identifica servidores de nombres asociados a una zona o delegación."
+  },
+  {
+    "id": "HAC-M01-T01-055",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Para qué se usa un registro DNS TXT?",
+    "opciones": [
+      "Para publicar información de texto, por ejemplo verificaciones y políticas de correo",
+      "Solo para guardar direcciones IPv6",
+      "Para medir latencia",
+      "Para determinar la máscara del router"
+    ],
+    "correcta": 0,
+    "explicacion": "TXT contiene cadenas de texto; se usa, entre otras cosas, en SPF y verificaciones."
+  },
+  {
+    "id": "HAC-M01-T01-056",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es una caché DNS?",
+    "opciones": [
+      "Una copia completa de Internet",
+      "Un almacenamiento temporal de respuestas DNS",
+      "Una IP pública permanente",
+      "Un protocolo de transporte"
     ],
     "correcta": 1,
-    "explicacion": "La representación habitual de IPv4 es decimal punteada, como 216.58.204.174."
+    "explicacion": "La caché reduce consultas repetidas hasta que expira el TTL correspondiente."
+  },
+  {
+    "id": "HAC-M01-T01-057",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En un registro DNS, ¿qué significa TTL=300?",
+    "opciones": [
+      "Que el servidor tiene 300 puertos",
+      "Que el dominio tiene 300 caracteres",
+      "Que la respuesta puede mantenerse en caché hasta 300 segundos según ese TTL",
+      "Que el paquete puede atravesar 300 routers"
+    ],
+    "correcta": 2,
+    "explicacion": "El TTL DNS se mide en segundos; 300 segundos son cinco minutos."
+  },
+  {
+    "id": "HAC-M01-T01-058",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué representa IN en una respuesta como ejemplo.com. 300 IN A 192.0.2.10?",
+    "opciones": [
+      "La versión del protocolo HTTPS",
+      "La clase Internet del registro DNS",
+      "Una indicación de IP interna",
+      "El país de origen del servidor"
+    ],
+    "correcta": 1,
+    "explicacion": "IN es la clase DNS Internet, no una indicación de IP privada."
+  },
+  {
+    "id": "HAC-M01-T01-059",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En ejemplo.com. 300 IN A 192.0.2.10, ¿qué representa A?",
+    "opciones": [
+      "La dirección del servidor DNS consultado",
+      "El tipo de registro que contiene una IPv4",
+      "La clase de red",
+      "El tiempo de caché"
+    ],
+    "correcta": 1,
+    "explicacion": "El tipo A identifica el contenido IPv4; el TTL es 300 e IN es la clase."
+  },
+  {
+    "id": "HAC-M01-T01-060",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En ejemplo.com. 300 IN A 192.0.2.10, ¿qué representa 192.0.2.10?",
+    "opciones": [
+      "El número de puerto",
+      "La dirección obligatoria del servidor DNS",
+      "El valor IPv4 del registro consultado",
+      "El TTL expresado en decimal"
+    ],
+    "correcta": 2,
+    "explicacion": "La IP al final es el dato devuelto por el registro A; 192.0.2.0/24 se reserva para documentación."
+  },
+  {
+    "id": "HAC-M01-T01-061",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Puede un dominio tener varios registros A y devolver varias IPv4?",
+    "opciones": [
+      "Solo si el dominio usa IPv6",
+      "No, DNS solo permite una IPv4 por dominio",
+      "Solo cuando hay un error de caché",
+      "Sí, un nombre puede asociarse a varias direcciones IPv4"
+    ],
+    "correcta": 3,
+    "explicacion": "Es normal encontrar varias direcciones para balanceo y disponibilidad."
+  },
+  {
+    "id": "HAC-M01-T01-062",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa que una respuesta DNS sea no autoritativa?",
+    "opciones": [
+      "Que el dominio está bloqueado",
+      "Que la conexión no está cifrada",
+      "Que no procede directamente de un servidor autoritativo de la zona",
+      "Que la respuesta es necesariamente falsa"
+    ],
+    "correcta": 2,
+    "explicacion": "Un resolvedor recursivo puede devolver respuestas válidas obtenidas de caché."
+  },
+  {
+    "id": "HAC-M01-T01-063",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la diferencia entre servidor DNS consultado y dirección IP obtenida?",
+    "opciones": [
+      "Ambas son siempre la misma dirección",
+      "El primero responde la consulta; la segunda es un dato del dominio consultado",
+      "El servidor DNS es siempre el servidor web del dominio",
+      "La IP obtenida identifica necesariamente tu router"
+    ],
+    "correcta": 1,
+    "explicacion": "La IP del resolvedor DNS no tiene por qué coincidir con la IP del sitio web."
+  },
+  {
+    "id": "HAC-M01-T01-064",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es un paquete IP?",
+    "opciones": [
+      "Un tipo de router",
+      "Un archivo ZIP",
+      "Una carpeta compartida",
+      "Una unidad de datos con cabecera IP y carga útil"
+    ],
+    "correcta": 3,
+    "explicacion": "La cabecera contiene información como origen y destino para encaminar datos."
+  },
+  {
+    "id": "HAC-M01-T01-065",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuántos bits contiene un byte?",
+    "opciones": [
+      "32",
+      "4",
+      "16",
+      "8"
+    ],
+    "correcta": 3,
+    "explicacion": "Un byte equivale a ocho bits."
+  },
+  {
+    "id": "HAC-M01-T01-066",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa ms en una medida de red?",
+    "opciones": [
+      "Metros por segundo",
+      "Megabytes por segundo",
+      "Milisegundos",
+      "Minutos de servicio"
+    ],
+    "correcta": 2,
+    "explicacion": "1 ms = 0,001 segundos."
+  },
+  {
+    "id": "HAC-M01-T01-067",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuánto equivale a 18 ms?",
+    "opciones": [
+      "0,18 minutos",
+      "0,018 segundos",
+      "1,8 segundos",
+      "18 segundos"
+    ],
+    "correcta": 1,
+    "explicacion": "Se divide entre 1000: 18/1000 = 0,018 segundos."
+  },
+  {
+    "id": "HAC-M01-T01-068",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es latencia?",
+    "opciones": [
+      "El número de puertos abiertos",
+      "La cantidad de direcciones IP",
+      "El retraso en una comunicación de red",
+      "El tamaño de un archivo"
+    ],
+    "correcta": 2,
+    "explicacion": "La latencia describe una demora; no equivale al ancho de banda."
+  },
+  {
+    "id": "HAC-M01-T01-069",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es RTT (Round-Trip Time)?",
+    "opciones": [
+      "Número de saltos de un paquete",
+      "Tiempo de ida y vuelta entre enviar una prueba y recibir respuesta",
+      "Velocidad máxima de descarga",
+      "Tiempo de caché DNS"
+    ],
+    "correcta": 1,
+    "explicacion": "RTT suele medirse en milisegundos y es lo que normalmente informa ping."
+  },
+  {
+    "id": "HAC-M01-T01-070",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa pérdida de paquetes?",
+    "opciones": [
+      "Que el router cambia su MAC",
+      "Que el DNS no tiene registro MX",
+      "Que algunos paquetes no llegan o no reciben la respuesta esperada",
+      "Que los paquetes se comprimen"
+    ],
+    "correcta": 2,
+    "explicacion": "La pérdida puede producir interrupciones, retransmisiones o degradación de servicios."
+  },
+  {
+    "id": "HAC-M01-T01-071",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es un salto (hop) en una ruta IP?",
+    "opciones": [
+      "Cada segundo de latencia",
+      "Cada conexión Wi-Fi",
+      "Cada carácter de una dirección IP",
+      "El paso por un router que reenvía el paquete"
+    ],
+    "correcta": 3,
+    "explicacion": "Los routers intermedios cuentan como saltos en el camino."
+  },
+  {
+    "id": "HAC-M01-T01-072",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa TTL en un paquete IPv4?",
+    "opciones": [
+      "El tamaño del paquete en bytes",
+      "Un límite de saltos que los routers van reduciendo",
+      "La duración de la conexión HTTPS",
+      "El tiempo de caché DNS del dominio"
+    ],
+    "correcta": 1,
+    "explicacion": "Aunque se llame Time To Live, en IPv4 opera como un contador de saltos."
+  },
+  {
+    "id": "HAC-M01-T01-073",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué hace normalmente un router con un paquete IPv4 cuyo TTL se agota?",
+    "opciones": [
+      "Lo reenvía indefinidamente",
+      "Lo transforma en un registro DNS",
+      "Lo descarta y puede enviar un mensaje ICMP Time Exceeded",
+      "Lo almacena durante un segundo"
+    ],
+    "correcta": 2,
+    "explicacion": "TTL evita bucles de encaminamiento infinitos."
+  },
+  {
+    "id": "HAC-M01-T01-074",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si una respuesta de ping muestra TTL=117, ¿qué sabes con certeza?",
+    "opciones": [
+      "Que tardó 117 segundos",
+      "Que el paquete recibido conservaba un TTL de 117",
+      "Que quedan 117 segundos de caché DNS",
+      "Que recorrió exactamente 117 routers"
+    ],
+    "correcta": 1,
+    "explicacion": "El valor es restante, no el número de routers recorridos ni un tiempo."
+  },
+  {
+    "id": "HAC-M01-T01-075",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Se puede deducir exactamente el número de saltos solo con TTL=117?",
+    "opciones": [
+      "Sí, porque el TTL siempre comienza en 128",
+      "Sí, fueron exactamente 117",
+      "Sí, siempre fueron 11",
+      "No, sin conocer el TTL inicial no se puede determinar exactamente"
+    ],
+    "correcta": 3,
+    "explicacion": "Los sistemas pueden usar diferentes TTL iniciales; el valor observado es el restante."
+  },
+  {
+    "id": "HAC-M01-T01-076",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué diferencia hay entre TTL de DNS y TTL de IPv4?",
+    "opciones": [
+      "DNS cuenta routers e IPv4 mide caché",
+      "Ambos cuentan puertos abiertos",
+      "El DNS mide duración de caché en segundos; IPv4 limita saltos",
+      "Ambos son siempre tiempos en segundos"
+    ],
+    "correcta": 2,
+    "explicacion": "Comparten las siglas Time To Live, pero se aplican a mecanismos distintos."
+  },
+  {
+    "id": "HAC-M01-T01-077",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa Reply from 8.8.8.8 en una salida de ping?",
+    "opciones": [
+      "Que el DNS ha devuelto necesariamente esa dirección",
+      "Que se recibió una respuesta atribuida a esa dirección IP",
+      "Que esa IP es la de tu propio ordenador",
+      "Que esa IP es la máscara de subred"
+    ],
+    "correcta": 1,
+    "explicacion": "Reply from señala el origen de la respuesta ICMP recibida."
+  },
+  {
+    "id": "HAC-M01-T01-078",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En Reply from 8.8.8.8: bytes=32 time=18ms TTL=117, ¿qué indica bytes=32?",
+    "opciones": [
+      "El tamaño total de todos los paquetes de Internet",
+      "La cantidad de datos de prueba informada en la respuesta",
+      "La cantidad de routers",
+      "La longitud en bits de la dirección IPv4"
+    ],
+    "correcta": 1,
+    "explicacion": "Windows ping suele utilizar 32 bytes de datos ICMP por defecto; el paquete total tiene cabeceras adicionales."
+  },
+  {
+    "id": "HAC-M01-T01-079",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En una respuesta de ping, ¿qué representa time=18ms?",
+    "opciones": [
+      "El tiempo aproximado de ida y vuelta de la prueba",
+      "El número de saltos",
+      "La velocidad de descarga en MB/s",
+      "El tiempo de vida DNS"
+    ],
+    "correcta": 0,
+    "explicacion": "El tiempo de ping es RTT, no una velocidad ni un TTL."
+  },
+  {
+    "id": "HAC-M01-T01-080",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué conclusión es correcta si un equipo no responde a ping?",
+    "opciones": [
+      "Seguro que no tiene dirección IP",
+      "Seguro que el equipo está apagado",
+      "No basta para afirmar que esté apagado: ICMP puede estar filtrado",
+      "Seguro que su DNS está mal"
+    ],
+    "correcta": 2,
+    "explicacion": "Firewalls y políticas de red pueden bloquear respuestas ICMP."
+  },
+  {
+    "id": "HAC-M01-T01-081",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es un protocolo de red?",
+    "opciones": [
+      "Una pieza de hardware",
+      "Un rango privado de IP",
+      "Una dirección MAC",
+      "Un conjunto de reglas para intercambiar información"
+    ],
+    "correcta": 3,
+    "explicacion": "Los protocolos definen formatos y comportamiento de comunicación."
+  },
+  {
+    "id": "HAC-M01-T01-082",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué caracteriza a TCP?",
+    "opciones": [
+      "Es siempre más rápido que UDP",
+      "No retransmite datos perdidos",
+      "No utiliza puertos",
+      "Es orientado a conexión y proporciona un flujo fiable y ordenado de bytes"
+    ],
+    "correcta": 3,
+    "explicacion": "TCP utiliza secuencias, confirmaciones y retransmisiones para fiabilidad."
+  },
+  {
+    "id": "HAC-M01-T01-083",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué caracteriza a UDP?",
+    "opciones": [
+      "Solo funciona con IPv6",
+      "Establece siempre una conexión fiable",
+      "Envía datagramas sin garantizar por sí mismo entrega ni orden",
+      "No utiliza números de puerto"
+    ],
+    "correcta": 2,
+    "explicacion": "UDP es no orientado a conexión; las aplicaciones pueden implementar controles propios."
+  },
+  {
+    "id": "HAC-M01-T01-084",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es ICMP?",
+    "opciones": [
+      "Un protocolo de cifrado web",
+      "Un sistema de archivos",
+      "Un protocolo de mensajes de control y diagnóstico para IP",
+      "Un registro DNS de correo"
+    ],
+    "correcta": 2,
+    "explicacion": "ICMP incluye mensajes como Echo Request, Echo Reply y Time Exceeded."
+  },
+  {
+    "id": "HAC-M01-T01-085",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué diferencia hay entre TCP y UDP?",
+    "opciones": [
+      "TCP ofrece un flujo fiable orientado a conexión; UDP envía datagramas sin esas garantías",
+      "TCP solo existe en Windows",
+      "TCP usa IP y UDP no",
+      "UDP cifra automáticamente y TCP no"
+    ],
+    "correcta": 0,
+    "explicacion": "Ambos son protocolos de transporte, con garantías y mecanismos distintos."
+  },
+  {
+    "id": "HAC-M01-T01-086",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es un puerto TCP o UDP?",
+    "opciones": [
+      "Un conector físico obligatorio",
+      "Una dirección IP adicional",
+      "Una dirección MAC",
+      "Un identificador numérico de un punto de comunicación de transporte"
+    ],
+    "correcta": 3,
+    "explicacion": "Los puertos distinguen servicios y comunicaciones en un equipo."
+  },
+  {
+    "id": "HAC-M01-T01-087",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es el puerto habitual de HTTP?",
+    "opciones": [
+      "80",
+      "22",
+      "53",
+      "443"
+    ],
+    "correcta": 0,
+    "explicacion": "HTTP suele usar TCP 80, aunque puede configurarse en otros puertos."
+  },
+  {
+    "id": "HAC-M01-T01-088",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es el puerto habitual de HTTPS?",
+    "opciones": [
+      "80",
+      "25",
+      "443",
+      "53"
+    ],
+    "correcta": 2,
+    "explicacion": "HTTPS suele usar el puerto 443; HTTP/3 usa QUIC sobre UDP 443."
+  },
+  {
+    "id": "HAC-M01-T01-089",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es el puerto habitual de DNS?",
+    "opciones": [
+      "443",
+      "53",
+      "3389",
+      "21"
+    ],
+    "correcta": 1,
+    "explicacion": "DNS usa normalmente el puerto 53, sobre UDP o TCP según el caso."
+  },
+  {
+    "id": "HAC-M01-T01-090",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es el puerto habitual de SSH?",
+    "opciones": [
+      "21",
+      "22",
+      "25",
+      "80"
+    ],
+    "correcta": 1,
+    "explicacion": "SSH usa habitualmente TCP 22 para acceso remoto seguro."
+  },
+  {
+    "id": "HAC-M01-T01-091",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es el puerto habitual de RDP?",
+    "opciones": [
+      "443",
+      "53",
+      "3389",
+      "110"
+    ],
+    "correcta": 2,
+    "explicacion": "RDP utiliza habitualmente el puerto 3389 (TCP y también UDP en implementaciones modernas)."
+  },
+  {
+    "id": "HAC-M01-T01-092",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué diferencia existe entre HTTP y HTTPS?",
+    "opciones": [
+      "HTTPS protege la comunicación HTTP mediante TLS",
+      "HTTPS significa que el servidor no puede tener fallos",
+      "HTTP utiliza DNS y HTTPS no",
+      "HTTPS usa obligatoriamente IPv6"
+    ],
+    "correcta": 0,
+    "explicacion": "TLS aporta cifrado y autenticación del servidor cuando la conexión se valida correctamente."
+  },
+  {
+    "id": "HAC-M01-T01-093",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa que un servicio esté escuchando en un puerto?",
+    "opciones": [
+      "Que un proceso está preparado para recibir tráfico en ese puerto",
+      "Que el tráfico está cifrado",
+      "Que el equipo está ejecutando ping",
+      "Que el puerto está necesariamente accesible desde Internet"
+    ],
+    "correcta": 0,
+    "explicacion": "Escuchar localmente no implica que el firewall o la red permitan acceso externo."
+  },
+  {
+    "id": "HAC-M01-T01-094",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es el reconocimiento en ciberseguridad?",
+    "opciones": [
+      "Desactivar todos los firewalls",
+      "Modificar sistemas para ocultar huellas",
+      "Recopilar información sobre sistemas y servicios dentro de un alcance autorizado",
+      "Ejecutar siempre ataques de fuerza bruta"
+    ],
+    "correcta": 2,
+    "explicacion": "Reconocimiento identifica activos, dominios, IP, tecnologías y servicios."
+  },
+  {
+    "id": "HAC-M01-T01-095",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué diferencia hay entre reconocimiento pasivo y activo?",
+    "opciones": [
+      "El pasivo modifica archivos y el activo no",
+      "No existe diferencia",
+      "El pasivo evita interacción directa con el objetivo; el activo envía consultas o pruebas al objetivo",
+      "El pasivo usa Linux y el activo Windows"
+    ],
+    "correcta": 2,
+    "explicacion": "Consultar fuentes públicas de terceros puede ser pasivo; probar directamente un servicio es activo."
+  },
+  {
+    "id": "HAC-M01-T01-096",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Por qué no conviene memorizar la IP concreta que devuelve una práctica DNS?",
+    "opciones": [
+      "Porque puede cambiar y lo importante es interpretar qué representa",
+      "Porque todas las IP son secretas",
+      "Porque las direcciones IP nunca se usan en ciberseguridad",
+      "Porque DNS solo devuelve nombres, no direcciones"
+    ],
+    "correcta": 0,
+    "explicacion": "Debes memorizar tipos, sintaxis y significados; no valores circunstanciales."
+  },
+  {
+    "id": "HAC-M01-T01-097",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si un dominio devuelve una IPv4 y una IPv6, ¿cuál es la interpretación correcta?",
+    "opciones": [
+      "El DNS ha cometido un error",
+      "La IPv4 es siempre privada",
+      "Puede tener registros A y AAAA asociados al mismo nombre",
+      "La IPv6 es necesariamente la IP del servidor DNS"
+    ],
+    "correcta": 2,
+    "explicacion": "Un dominio puede publicarse en ambas familias IP."
+  },
+  {
+    "id": "HAC-M01-T01-098",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la diferencia entre dirección de red y dirección de host en una /24 convencional?",
+    "opciones": [
+      "La dirección de red es siempre la puerta de enlace",
+      "La de red identifica el bloque; las de host identifican interfaces dentro de él",
+      "Ambas son siempre la misma",
+      "La dirección de host tiene solo 24 bits"
+    ],
+    "correcta": 1,
+    "explicacion": "En 192.168.1.0/24, .0 es la red y normalmente .1 a .254 pueden usarse para hosts."
+  },
+  {
+    "id": "HAC-M01-T01-099",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa que una dirección IPv4 use /32?",
+    "opciones": [
+      "Que su máscara es 255.255.255.0",
+      "Que los 32 bits pertenecen al prefijo, identificando una sola dirección",
+      "Que contiene 32 equipos",
+      "Que utiliza el puerto 32"
+    ],
+    "correcta": 1,
+    "explicacion": "/32 equivale a 255.255.255.255 y representa una dirección individual."
+  },
+  {
+    "id": "HAC-M01-T01-100",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la máscara equivalente a /8?",
+    "opciones": [
+      "255.255.255.128",
+      "255.0.0.0",
+      "255.255.0.0",
+      "255.255.255.0"
+    ],
+    "correcta": 1,
+    "explicacion": "/8 establece los primeros ocho bits del prefijo."
+  },
+  {
+    "id": "HAC-M01-T01-101",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la máscara equivalente a /30?",
+    "opciones": [
+      "255.255.255.0",
+      "255.255.255.248",
+      "255.255.255.252",
+      "255.255.255.254"
+    ],
+    "correcta": 2,
+    "explicacion": "/30 deja dos bits de host, es decir, cuatro direcciones totales."
+  },
+  {
+    "id": "HAC-M01-T01-102",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En una subred IPv4 /30 convencional, ¿cuántas direcciones de host son utilizables normalmente?",
+    "opciones": [
+      "30",
+      "1",
+      "2",
+      "4"
+    ],
+    "correcta": 2,
+    "explicacion": "/30 tiene cuatro direcciones totales; normalmente red y broadcast no se asignan a hosts."
+  },
+  {
+    "id": "HAC-M01-T01-103",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué ocurre con el número de direcciones totales al pasar de /24 a /23?",
+    "opciones": [
+      "Se reduce a 128",
+      "Pasa a 23 direcciones",
+      "Se mantiene en 256",
+      "Se duplica, de 256 a 512"
+    ],
+    "correcta": 3,
+    "explicacion": "Un bit menos de prefijo significa un bit más para direcciones: el doble."
+  },
+  {
+    "id": "HAC-M01-T01-104",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es una IP pública global?",
+    "opciones": [
+      "Una dirección que nunca cambia",
+      "Una dirección que garantiza que el equipo acepta conexiones",
+      "Una dirección que siempre comienza por 192.168",
+      "Una dirección que puede encaminarse globalmente por Internet, sujeta a políticas y rutas"
+    ],
+    "correcta": 3,
+    "explicacion": "Ser globalmente enrutable no garantiza accesibilidad: puede haber firewalls, NAT o ausencia de servicio."
+  },
+  {
+    "id": "HAC-M01-T01-105",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué representa una dirección como 192.0.2.10 en ejemplos de documentación?",
+    "opciones": [
+      "Una dirección de un bloque reservado para documentación, no un objetivo real de práctica",
+      "La dirección de loopback",
+      "Un servidor DNS obligatorio",
+      "Una IP privada RFC 1918"
+    ],
+    "correcta": 0,
+    "explicacion": "192.0.2.0/24 (TEST-NET-1) está reservado para ejemplos y documentación."
+  },
+  {
+    "id": "HAC-M01-T01-106",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué afirmación sobre un firewall es correcta?",
+    "opciones": [
+      "No puede filtrar protocolos",
+      "Si bloquea ping, desconecta necesariamente todo Internet",
+      "Puede impedir respuestas a ping aunque otros servicios funcionen",
+      "Solo funciona en routers físicos"
+    ],
+    "correcta": 2,
+    "explicacion": "Las reglas pueden bloquear ICMP y permitir HTTPS, por ejemplo."
+  },
+  {
+    "id": "HAC-M01-T01-107",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa una dirección IPv4 escrita como cuatro números separados por puntos?",
+    "opciones": [
+      "Cada número representa un router",
+      "Cada número representa un puerto",
+      "Cada número contiene 32 bits",
+      "Cada número representa un octeto de 8 bits"
+    ],
+    "correcta": 3,
+    "explicacion": "Cuatro octetos de ocho bits suman los 32 bits de IPv4."
+  },
+  {
+    "id": "HAC-M01-T01-108",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál de estos elementos describe mejor el ancho de banda y no la latencia?",
+    "opciones": [
+      "Los milisegundos de ida y vuelta",
+      "El número de saltos",
+      "El TTL restante",
+      "La capacidad de transmitir datos por unidad de tiempo"
+    ],
+    "correcta": 3,
+    "explicacion": "Ancho de banda suele expresarse en bit/s; latencia es demora, típicamente en ms."
+  },
+  {
+    "id": "HAC-M01-T01-109",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es una dirección IP de destino en un paquete?",
+    "opciones": [
+      "La máscara de subred del servidor DNS",
+      "El nombre del programa que lo envía",
+      "El número de bytes de la carga útil",
+      "La dirección lógica hacia la que debe dirigirse el paquete"
+    ],
+    "correcta": 3,
+    "explicacion": "La cabecera IP contiene dirección de origen y destino para el encaminamiento."
+  },
+  {
+    "id": "HAC-M01-T01-110",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa el campo time en una respuesta de ping de Windows?",
+    "opciones": [
+      "Un RTT aproximado en milisegundos",
+      "El TTL DNS",
+      "La velocidad en megabits",
+      "La cantidad de bytes"
+    ],
+    "correcta": 0,
+    "explicacion": "time representa la demora entre la solicitud de eco y su respuesta."
+  },
+  {
+    "id": "HAC-M01-T01-111",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si un registro A devuelve 203.0.113.5, ¿qué debes memorizar para el examen?",
+    "opciones": [
+      "Que el último octeto es el puerto",
+      "La secuencia 203.0.113.5 como IP fija de todos los servidores",
+      "Que A devuelve IPv4; el valor exacto es ilustrativo",
+      "Que A devuelve siempre IPv6"
+    ],
+    "correcta": 2,
+    "explicacion": "203.0.113.0/24 es un bloque de documentación; se evalúa interpretación, no memorización de ejemplos."
   }
 ]

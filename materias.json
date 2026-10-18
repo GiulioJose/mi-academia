@@ -28,23 +28,47 @@
       }
     ]
   },
-  
-{
-  "id": "repaso-hackfy",
-  "nombre": "Hackfy - Repaso",
-  "modulos": [
-    {
-      "id": "m01",
-      "nombre": "Comandos básicos de redes",
-      "temas": [
-        {
-          "id": "t01",
-          "nombre": "nslookup (DNS)",
-          "archivo": "preguntas/hackfy-repaso/m01/HAC-M01-T01.json"
-        }
-      ]
-    }
-  ]
-}
-
+  {
+    "id": "repaso-hackfy",
+    "nombre": "Hackfy - Repaso",
+    "modulos": [
+      {
+        "id": "m01",
+        "nombre": "Fundamentos y comandos básicos de redes",
+        "temas": [
+          {
+            "id": "t01",
+            "nombre": "Introducción a las redes",
+            "archivo": "preguntas/hackfy-repaso/HAC-m01/HAC-M01-T01.json"
+          },
+          {
+            "id": "t02",
+            "nombre": "nslookup y dig (DNS)",
+            "archivo": "preguntas/hackfy-repaso/HAC-m01/HAC-M01-T02.json"
+          },
+          {
+            "id": "t03",
+            "nombre": "ping (Conectividad)",
+            "archivo": "preguntas/hackfy-repaso/HAC-m01/HAC-M01-T03.json"
+          },
+          {
+            "id": "t04",
+            "nombre": "tracert y traceroute (Rutas)",
+            "archivo": "preguntas/hackfy-repaso/HAC-m01/HAC-M01-T04.json"
+          },
+          {
+            "id": "t05",
+            "nombre": "ipconfig e ip (Configuración de red)",
+            "archivo": "preguntas/hackfy-repaso/HAC-m01/HAC-M01-T05.json"
+          },
+          {
+            "id": "t06",
+            "nombre": "netstat y ss (Conexiones y puertos)",
+            "archivo": "preguntas/hackfy-repaso/HAC-m01/HAC-M01-T06.json"
+          }
+        ]
+      }
+    ]
+  }
 ]
+
