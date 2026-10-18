@@ -1,0 +1,564 @@
+[
+  {
+    "id": "HAC-M01-T01-001",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa DNS?",
+    "opciones": [
+      "Domain Name System",
+      "Digital Network Security",
+      "Data Name Server",
+      "Domain Number Service"
+    ],
+    "correcta": 0,
+    "explicacion": "DNS significa Domain Name System, sistema de nombres de dominio."
+  },
+  {
+    "id": "HAC-M01-T01-002",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Para qué se utiliza principalmente el DNS?",
+    "opciones": [
+      "Cifrar archivos",
+      "Resolver nombres de dominio en registros como direcciones IP",
+      "Eliminar malware",
+      "Medir velocidad de descarga"
+    ],
+    "correcta": 1,
+    "explicacion": "El DNS permite consultar registros asociados a un nombre, entre ellos direcciones IP."
+  },
+  {
+    "id": "HAC-M01-T01-003",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué es un dominio como google.com?",
+    "opciones": [
+      "Una dirección IPv6",
+      "Un puerto TCP",
+      "Un nombre legible dentro del sistema de nombres de dominio"
+    ],
+    "correcta": 2,
+    "explicacion": "Los dominios permiten identificar recursos mediante nombres en lugar de memorizar IP."
+  },
+  {
+    "id": "HAC-M01-T01-004",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es una dirección IPv4 válida?",
+    "opciones": [
+      "2a00:1450::200e",
+      "google.com",
+      "443",
+      "172.217.171.46"
+    ],
+    "correcta": 3,
+    "explicacion": "IPv4 se representa habitualmente mediante cuatro números decimales de 0 a 255 separados por puntos."
+  },
+  {
+    "id": "HAC-M01-T01-005",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es una dirección IPv6?",
+    "opciones": [
+      "2001:4860:4860::8888",
+      "172.217.171.46",
+      "sundeva.shop"
+    ],
+    "correcta": 0,
+    "explicacion": "IPv6 utiliza notación hexadecimal con dos puntos; :: comprime grupos de ceros."
+  },
+  {
+    "id": "HAC-M01-T01-006",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuántos bits tiene una dirección IPv4?",
+    "opciones": [
+      "128",
+      "32",
+      "64",
+      "16"
+    ],
+    "correcta": 1,
+    "explicacion": "IPv4 utiliza 32 bits."
+  },
+  {
+    "id": "HAC-M01-T01-007",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuántos bits tiene una dirección IPv6?",
+    "opciones": [
+      "32",
+      "48",
+      "128",
+      "256"
+    ],
+    "correcta": 2,
+    "explicacion": "IPv6 utiliza 128 bits."
+  },
+  {
+    "id": "HAC-M01-T01-008",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué registro DNS contiene una dirección IPv4?",
+    "opciones": [
+      "MX",
+      "AAAA",
+      "TXT",
+      "A"
+    ],
+    "correcta": 3,
+    "explicacion": "El registro A asocia un nombre con una dirección IPv4."
+  },
+  {
+    "id": "HAC-M01-T01-009",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué registro DNS contiene una dirección IPv6?",
+    "opciones": [
+      "AAAA",
+      "A",
+      "CNAME",
+      "NS"
+    ],
+    "correcta": 0,
+    "explicacion": "El registro AAAA asocia un nombre con una dirección IPv6."
+  },
+  {
+    "id": "HAC-M01-T01-010",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué comando de Windows permite consultar DNS?",
+    "opciones": [
+      "taskkill",
+      "nslookup",
+      "mkdir",
+      "notepad"
+    ],
+    "correcta": 1,
+    "explicacion": "nslookup consulta registros DNS desde PowerShell o CMD."
+  },
+  {
+    "id": "HAC-M01-T01-011",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué comando consulta registros IPv4 de google.com?",
+    "opciones": [
+      "nslookup -type=AAAA google.com",
+      "ping -type=A google.com",
+      "nslookup -type=A google.com",
+      "ipconfig google.com"
+    ],
+    "correcta": 2,
+    "explicacion": "-type=A solicita registros DNS A, correspondientes a IPv4."
+  },
+  {
+    "id": "HAC-M01-T01-012",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué comando consulta registros IPv6 de google.com?",
+    "opciones": [
+      "nslookup -type=A google.com",
+      "dig -type=IPv4 google.com",
+      "ping google.com",
+      "nslookup -type=AAAA google.com"
+    ],
+    "correcta": 3,
+    "explicacion": "-type=AAAA solicita registros DNS AAAA, correspondientes a IPv6."
+  },
+  {
+    "id": "HAC-M01-T01-013",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué herramienta habitual en Linux se usa para consultar DNS?",
+    "opciones": [
+      "dig",
+      "grep",
+      "nano",
+      "ssh"
+    ],
+    "correcta": 0,
+    "explicacion": "dig permite realizar consultas DNS y examinar sus respuestas."
+  },
+  {
+    "id": "HAC-M01-T01-014",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué hace dig sundeva.shop?",
+    "opciones": [
+      "Abre el navegador",
+      "Consulta registros DNS del dominio",
+      "Instala un servidor web",
+      "Escanea todos los puertos"
+    ],
+    "correcta": 1,
+    "explicacion": "dig consulta el DNS; por defecto suele solicitar registros A."
+  },
+  {
+    "id": "HAC-M01-T01-015",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Dónde escribiste los comandos en Windows?",
+    "opciones": [
+      "En la barra de direcciones",
+      "En el editor de imágenes",
+      "En PowerShell",
+      "En el BIOS"
+    ],
+    "correcta": 2,
+    "explicacion": "PowerShell es una consola donde puedes ejecutar comandos."
+  },
+  {
+    "id": "HAC-M01-T01-016",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué indica el símbolo > en PS C:\\Users\\Usuario>?",
+    "opciones": [
+      "Un error de DNS",
+      "Un servidor web",
+      "Una dirección IP",
+      "El lugar donde introducir el comando"
+    ],
+    "correcta": 3,
+    "explicacion": "El prompt señala que la consola está lista para recibir instrucciones."
+  },
+  {
+    "id": "HAC-M01-T01-017",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Debes escribir PS C:\\Users\\Usuario> antes de cada comando?",
+    "opciones": [
+      "No, aparece automáticamente",
+      "Sí, siempre",
+      "Solo al consultar IPv6"
+    ],
+    "correcta": 0,
+    "explicacion": "Solo escribes el comando después del prompt."
+  },
+  {
+    "id": "HAC-M01-T01-018",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En nslookup, ¿qué representa Server: dns.google?",
+    "opciones": [
+      "El nombre del sitio consultado",
+      "El servidor DNS que respondió",
+      "El nombre de tu portátil"
+    ],
+    "correcta": 1,
+    "explicacion": "La línea Server identifica el resolvedor DNS usado en la consulta."
+  },
+  {
+    "id": "HAC-M01-T01-019",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En nslookup, ¿qué representa la primera Address bajo Server?",
+    "opciones": [
+      "La IP del sitio consultado",
+      "La IP de tu portátil",
+      "La dirección del servidor DNS consultado",
+      "El puerto HTTPS"
+    ],
+    "correcta": 2,
+    "explicacion": "La primera Address bajo Server identifica al servidor DNS."
+  },
+  {
+    "id": "HAC-M01-T01-020",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En nslookup, ¿qué representa Address bajo Name: google.com?",
+    "opciones": [
+      "El servidor DNS consultado",
+      "La versión de Windows",
+      "El puerto de la conexión",
+      "Una dirección IP devuelta para google.com"
+    ],
+    "correcta": 3,
+    "explicacion": "La sección de respuesta contiene las direcciones asociadas al dominio consultado."
+  },
+  {
+    "id": "HAC-M01-T01-021",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa Non-authoritative answer?",
+    "opciones": [
+      "La respuesta no viene directamente de un servidor autoritativo del dominio",
+      "El dominio está infectado",
+      "La consulta falló",
+      "No existe dirección IP"
+    ],
+    "correcta": 0,
+    "explicacion": "Un resolvedor recursivo puede entregar una respuesta no autoritativa válida."
+  },
+  {
+    "id": "HAC-M01-T01-022",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Por qué google.com puede devolver distintas IP en consultas sucesivas?",
+    "opciones": [
+      "Porque PowerShell cambia los números al azar",
+      "Porque un dominio puede usar múltiples servidores y políticas de respuesta DNS",
+      "Porque IPv4 solo funciona una vez"
+    ],
+    "correcta": 1,
+    "explicacion": "Grandes servicios usan varias IP y pueden variar las respuestas según la red o el momento."
+  },
+  {
+    "id": "HAC-M01-T01-023",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa que una respuesta DNS contenga registros A y AAAA?",
+    "opciones": [
+      "Que hay dos dominios distintos",
+      "Que HTTPS está desactivado",
+      "Que hay direcciones IPv4 e IPv6 asociadas",
+      "Que la consulta es insegura"
+    ],
+    "correcta": 2,
+    "explicacion": "A representa IPv4 y AAAA representa IPv6."
+  },
+  {
+    "id": "HAC-M01-T01-024",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué dirección era el servidor DNS en la práctica realizada?",
+    "opciones": [
+      "172.217.171.46",
+      "104.21.48.123",
+      "2a00:1450:4003:818::200e",
+      "2001:4860:4860::8888"
+    ],
+    "correcta": 3,
+    "explicacion": "La dirección 2001:4860:4860::8888 aparecía bajo Server: dns.google."
+  },
+  {
+    "id": "HAC-M01-T01-025",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál de estas IP apareció como respuesta IPv6 para google.com?",
+    "opciones": [
+      "2a00:1450:4003:818::200e",
+      "216.58.204.174",
+      "104.21.48.123"
+    ],
+    "correcta": 0,
+    "explicacion": "La consulta AAAA devolvió esa dirección IPv6 para google.com."
+  },
+  {
+    "id": "HAC-M01-T01-026",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En el ejercicio, ¿qué IP devolvió el DNS para sundeva.shop?",
+    "opciones": [
+      "192.168.1.1",
+      "104.21.48.123",
+      "2001:4860:4860::8888",
+      "127.0.0.1"
+    ],
+    "correcta": 1,
+    "explicacion": "La respuesta del comando dig mostraba el registro A 104.21.48.123."
+  },
+  {
+    "id": "HAC-M01-T01-027",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En la salida dig: sundeva.shop. 300 IN A 104.21.48.123, ¿qué indica 300?",
+    "opciones": [
+      "El puerto de la tienda",
+      "El tamaño de la web",
+      "El TTL en segundos",
+      "El número de servidores"
+    ],
+    "correcta": 2,
+    "explicacion": "El TTL indica cuánto tiempo puede almacenarse en caché el registro DNS."
+  },
+  {
+    "id": "HAC-M01-T01-028",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En esa salida de dig, ¿qué indica A?",
+    "opciones": [
+      "La velocidad de la conexión",
+      "Un registro de correo",
+      "Un error de acceso",
+      "Un registro de dirección IPv4"
+    ],
+    "correcta": 3,
+    "explicacion": "A es el tipo de registro DNS para IPv4."
+  },
+  {
+    "id": "HAC-M01-T01-029",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "En esa salida de dig, ¿qué indica IN?",
+    "opciones": [
+      "La clase Internet del registro DNS",
+      "Que el servidor está en India",
+      "Que la IP es interna"
+    ],
+    "correcta": 0,
+    "explicacion": "IN identifica la clase Internet de la consulta DNS."
+  },
+  {
+    "id": "HAC-M01-T01-030",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué herramienta usarías primero para averiguar la IPv4 de un dominio en PowerShell?",
+    "opciones": [
+      "notepad",
+      "nslookup -type=A dominio.com",
+      "shutdown",
+      "cd"
+    ],
+    "correcta": 1,
+    "explicacion": "La consulta de tipo A devuelve registros IPv4 del dominio."
+  },
+  {
+    "id": "HAC-M01-T01-031",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "Si en nslookup aparece Server: dns.google y Name: ejemplo.com, ¿qué nombre es el dominio consultado?",
+    "opciones": [
+      "dns.google",
+      "PowerShell",
+      "ejemplo.com",
+      "Windows"
+    ],
+    "correcta": 2,
+    "explicacion": "Name en la respuesta identifica el dominio al que corresponden los registros devueltos."
+  },
+  {
+    "id": "HAC-M01-T01-032",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué comando solicitarías para comprobar solo el registro AAAA de sundeva.shop?",
+    "opciones": [
+      "nslookup -type=A sundeva.shop",
+      "nslookup -type=AAAA sundeva.shop",
+      "nslookup -type=MX google.com",
+      "ping -AAAA sundeva.shop"
+    ],
+    "correcta": 1,
+    "explicacion": "El tipo AAAA consulta direcciones IPv6 del dominio indicado."
+  },
+  {
+    "id": "HAC-M01-T01-033",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué significa que el comando nslookup vuelva al prompt sin error?",
+    "opciones": [
+      "Que Windows se ha reiniciado",
+      "Que se ha instalado un programa",
+      "Que el comando terminó y la consola está lista para otro",
+      "Que se ha borrado el DNS"
+    ],
+    "correcta": 2,
+    "explicacion": "El retorno al prompt indica que la ejecución ha finalizado."
+  },
+  {
+    "id": "HAC-M01-T01-034",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué diferencia existe entre dig y nslookup?",
+    "opciones": [
+      "Ambos consultan DNS, aunque su interfaz y salida son diferentes",
+      "dig cifra y nslookup descifra",
+      "nslookup solo funciona con IPv6",
+      "dig es un navegador"
+    ],
+    "correcta": 0,
+    "explicacion": "Las dos herramientas sirven para consultar DNS; dig es habitual en Linux y nslookup está disponible en Windows."
+  },
+  {
+    "id": "HAC-M01-T01-035",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué afirmación sobre un servidor DNS y un servidor web es correcta?",
+    "opciones": [
+      "Son siempre el mismo equipo",
+      "El DNS entrega páginas HTML",
+      "El DNS responde consultas de nombres; el servidor web atiende solicitudes web",
+      "Ambos utilizan siempre el puerto 443"
+    ],
+    "correcta": 2,
+    "explicacion": "DNS y web cumplen funciones distintas, aunque pueden coexistir en una infraestructura."
+  },
+  {
+    "id": "HAC-M01-T01-036",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué puerto utiliza normalmente DNS para consultas convencionales?",
+    "opciones": [
+      "443",
+      "80",
+      "3389",
+      "53"
+    ],
+    "correcta": 3,
+    "explicacion": "DNS usa habitualmente el puerto 53 mediante UDP o TCP."
+  },
+  {
+    "id": "HAC-M01-T01-037",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Cuál es la mejor forma de leer una salida de nslookup?",
+    "opciones": [
+      "Separar primero los datos del servidor DNS de los datos de la respuesta del dominio",
+      "Suponer que todas las IP son del sitio consultado",
+      "Ignorar el campo Name"
+    ],
+    "correcta": 0,
+    "explicacion": "Distinguir servidor consultado y respuesta evita confundir sus direcciones."
+  },
+  {
+    "id": "HAC-M01-T01-038",
+    "materia": "repaso-hackfy",
+    "modulo": "m01",
+    "tema": "t01",
+    "pregunta": "¿Qué dato permite saber si una IP de respuesta DNS es IPv4?",
+    "opciones": [
+      "Contiene la palabra HTTPS",
+      "Suele tener cuatro números decimales separados por puntos",
+      "Termina siempre en 443",
+      "Tiene grupos hexadecimales separados por dos puntos"
+    ],
+    "correcta": 1,
+    "explicacion": "La representación habitual de IPv4 es decimal punteada, como 216.58.204.174."
+  }
+]

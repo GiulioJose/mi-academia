@@ -27,5 +27,24 @@
         ]
       }
     ]
-  }
+  },
+  
+{
+  "id": "repaso-hackfy",
+  "nombre": "Hackfy - Repaso",
+  "modulos": [
+    {
+      "id": "m01",
+      "nombre": "Comandos básicos de redes",
+      "temas": [
+        {
+          "id": "t01",
+          "nombre": "nslookup (DNS)",
+          "archivo": "preguntas/hackfy-repaso/m01/HAC-M01-T01.json"
+        }
+      ]
+    }
+  ]
+}
+
 ]
