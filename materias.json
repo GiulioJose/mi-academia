@@ -1,49 +1,25 @@
-
 [
   {
     "id": "ciberseguridad",
     "nombre": "Ciberseguridad",
-    "modulos": [
-      {
-        "id": "m01",
-        "nombre": "Módulo 1",
-        "temas": [
-          {
-            "id": "t01",
-            "nombre": "Tema 1",
-            "archivo": "preguntas/ciberseguridad/m01/CIB-M01-T01.json"
-          }
-        ]
-      },
-      {
-        "id": "m02",
-        "nombre": "Módulo 2",
-        "temas": [
-          {
-            "id": "t01",
-            "nombre": "Tema 1",
-            "archivo": "preguntas/ciberseguridad/m02/CIB-M02-T01.json"
-          }
-        ]
-      }
-    ]
+    "modulos": []
   },
   {
-    "id": "repaso-hackfy",
-    "nombre": "Hackfy - Repaso",
+    "id": "hackfy",
+    "nombre": "Hackfy",
     "modulos": [
       {
         "id": "m01",
-        "nombre": "Fundamentos y comandos básicos de redes",
+        "nombre": "Fundamentos de Redes",
+        "carpeta": "m01-fundamentos-de-redes",
         "temas": [
           {
             "id": "t01",
-            "nombre": "Introducción a las redes",
-            "archivo": "preguntas/hackfy-repaso/HAC-m01/HAC-M01-T01.json"
+            "nombre": "Introduccion a las Redes",
+            "archivo": "preguntas/hackfy/m01-fundamentos-de-redes/HAC-M01-T01.json"
           }
         ]
       }
     ]
   }
 ]
-

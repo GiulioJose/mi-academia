@@ -1,31 +1,24 @@
-
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mi Academia - Cuestionario</title>
   <link rel="stylesheet" href="./estilos.css">
 </head>
+
 <body>
 
   <h1>Mi Academia</h1>
 
   <div id="cuestionario">
 
-    <p id="contador"></p>
-    <p id="id-pregunta"></p>
-    <h2 id="pregunta"></h2>
-
-    <div class="acciones-pregunta">
-      <button id="favorito" type="button">
-        ☆ Guardar en favoritas
-      </button>
-
-      <button id="revisar" type="button">
-        ♧ Marcar para revisar
-      </button>
+    <div class="cabecera-pregunta">
+      <p id="contador"></p>
+      <p id="id-pregunta"></p>
     </div>
+    <h2 id="pregunta"></h2>
 
     <div id="opciones"></div>
 
@@ -38,6 +31,16 @@
     <button id="siguiente" disabled>
       Siguiente pregunta
     </button>
+
+    <div class="acciones-pregunta">
+      <button id="revisar" type="button">
+        ♧ Marcar para revisar
+      </button>
+
+      <button id="favorito" type="button">
+        ☆ Guardar en favoritas
+      </button>
+    </div>
 
   </div>
 
@@ -61,4 +64,5 @@
   <script type="module" src="./js/cuestionario.js"></script>
 
 </body>
+
 </html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Academia - Contenido</title>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+
+<body>
+
+  <div id="aviso-contenido-movil" role="status">
+    <h2>Administración no disponible</h2>
+    <p>
+      La administración de contenido de Mi Academia
+      está disponible únicamente desde un ordenador.
+    </p>
+    <a href="./index.html">Volver al inicio</a>
+  </div>
+  <main id="administracion-contenido">
+    <a href="./index.html" class="boton-volver">
+      ← Volver al inicio
+    </a>
+
+    <h1>Mi Academia</h1>
+    <h2>Administración de contenido</h2>
+
+    <p>
+      Gestiona las materias, módulos y temas de Mi Academia.
+    </p>
+
+    <section class="tarjeta-contenido">
+
+      <h3>1. Materias</h3>
+
+      <select id="contenido-materia">
+        <option value="">Selecciona una materia</option>
+      </select>
+
+      <button id="agregar-materia" type="button">
+        Añadir materia
+      </button>
+
+      <button id="eliminar-materia" type="button" disabled>
+        Quitar materia
+      </button>
+
+    </section>
+
+    <section class="tarjeta-contenido">
+
+      <h3>2. Módulos</h3>
+
+      <select id="contenido-modulo" disabled>
+        <option value="">Selecciona un módulo</option>
+      </select>
+
+      <button id="agregar-modulo" type="button" disabled>
+        Añadir módulo
+      </button>
+
+      <button id="eliminar-modulo" type="button" disabled>
+        Quitar módulo
+      </button>
+
+    </section>
+
+    <section class="tarjeta-contenido">
+
+      <h3>3. Temas</h3>
+
+      <select id="contenido-tema" disabled>
+        <option value="">Selecciona un tema</option>
+      </select>
+
+      <button id="agregar-tema" type="button" disabled>
+        Añadir tema
+      </button>
+
+      <button id="eliminar-tema" type="button" disabled>
+        Quitar tema
+      </button>
+
+    </section>
+
+    <section class="tarjeta-contenido">
+
+      <h3>4. Formato de preguntas</h3>
+
+      <p>
+        Selecciona una materia, un módulo y un tema para
+        obtener el formato JSON correspondiente.
+      </p>
+
+      <pre id="ejemplo-pregunta"></pre>
+
+      <button id="copiar-pregunta" type="button" disabled>
+        Copiar ejemplo
+      </button>
+
+    </section>
+
+    <section class="tarjeta-contenido">
+
+      <h3>5. Exportar catálogo</h3>
+
+      <p>
+        Genera el archivo materias.json actualizado
+        para sustituir el existente en el proyecto.
+      </p>
+
+      <button id="exportar-catalogo" type="button" disabled>
+        Exportar materias.json
+      </button>
+
+      <p id="mensaje-contenido" role="status"></p>
+
+    </section>
+
+  </main>
+
+  <script type="module" src="./js/contenido.js"></script>
+
+</body>
+
+</html>

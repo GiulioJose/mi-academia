@@ -1,5 +1,4 @@
-
-// Contenedores de la página de inicio
+/* Tarjetas de selección de módulos y temas */
 #modulos,
 #temas {
   width: 100%;
@@ -10,18 +9,19 @@
   margin: 12px auto 24px;
 }
 
-// Contenedores del cuestionario
+/* Tarjetas de Autoevaluación y Revisión */
 #cuestionario,
-#resultados-finales {
+#resultados-finales,
+#revision {
+  width: 100%;
   background: var(--superficie);
   border: 1px solid var(--borde);
   border-radius: var(--radio);
   padding: 24px;
   margin: 20px auto;
-  width: 100%;
 }
 
-// Ocultar elementos con atributo hidden
+/* Ocultar elementos con atributo hidden */
 [hidden] {
   display: none !important;
 }

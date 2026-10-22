@@ -1,0 +1,168 @@
+
+#administracion-contenido {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+
+  // Botón Volver al inicio
+  .boton-volver {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+
+    margin-bottom: 24px;
+    padding: 10px 16px;
+
+    background: var(--superficie);
+    color: var(--texto);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: var(--fondo);
+    }
+
+    &:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+  }
+
+  > h2 {
+    margin-top: 8px;
+    color: var(--secundario);
+    font-weight: 500;
+  }
+
+  > p {
+    color: var(--secundario);
+    margin-bottom: 28px;
+  }
+
+  // Tarjetas de administración
+  .tarjeta-contenido {
+    background: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+    padding: 24px;
+    margin-bottom: 20px;
+
+    h3 {
+      margin: 0 0 18px;
+      font-size: 1.1rem;
+      color: var(--texto);
+    }
+
+    p {
+      color: var(--secundario);
+    }
+
+    select {
+      max-width: none;
+      margin-bottom: 16px;
+    }
+
+    button {
+      margin: 0 10px 10px 0;
+    }
+
+    button[id^="eliminar-"] {
+      background: transparent;
+      color: var(--error);
+      border-color: var(--error);
+
+      &:hover:not(:disabled) {
+        background: #fff1f0;
+      }
+    }
+  }
+
+  // Ejemplo JSON
+  #ejemplo-pregunta {
+    width: 100%;
+    min-height: 100px;
+    padding: 20px;
+    margin: 18px 0;
+
+    background: var(--fondo);
+    border: 1px solid var(--borde);
+    border-radius: 9px;
+
+    color: var(--texto);
+    font-family: Consolas, "Courier New", monospace;
+    font-size: 0.9rem;
+    line-height: 1.6;
+
+    white-space: pre;
+    overflow-x: auto;
+  }
+
+  // Mensajes de administración
+  #mensaje-contenido {
+    margin-top: 16px;
+    margin-bottom: 0;
+    color: var(--exito);
+    overflow-wrap: anywhere;
+
+    &:empty {
+      display: none;
+    }
+  }
+}
+
+// Ajustes para pantallas pequeñas
+@media (max-width: 600px) {
+  #administracion-contenido {
+    .tarjeta-contenido {
+      padding: 18px;
+
+      button {
+        width: 100%;
+        margin-right: 0;
+      }
+    }
+  }
+}
+
+
+/* Aviso de administración en pantallas pequeñas */
+#aviso-contenido-movil {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #administracion-contenido {
+    display: none;
+  }
+
+  #aviso-contenido-movil {
+    display: block;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 24px;
+    text-align: center;
+
+    background: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+
+    h2 {
+      margin-bottom: 16px;
+    }
+
+    p {
+      margin-bottom: 20px;
+      color: var(--secundario);
+    }
+
+    a {
+      color: var(--texto);
+      font-weight: 600;
+    }
+  }
+}
+

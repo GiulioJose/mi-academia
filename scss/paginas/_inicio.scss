@@ -22,3 +22,51 @@
     background: #eaf0f6;
   }
 }
+
+
+/* Tarjetas de Inicio y Mis repasos */
+.tarjeta-inicio,
+.tarjeta-repasos {
+  width: 100%;
+  max-width: 760px;
+  margin: 20px auto;
+  padding: 24px;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+
+.acceso-contenido {
+  margin: 24px auto;
+  text-align: center;
+
+  .boton-contenido {
+    display: inline-block;
+    padding: 12px 20px;
+    border-radius: var(--radio);
+    border: 1px solid var(--borde);
+    background: var(--superficie);
+    color: var(--texto);
+    text-decoration: none;
+    font-weight: 600;
+    transition: background 0.2s ease;
+
+    &:hover {
+      background: var(--fondo);
+    }
+
+    &:focus-visible {
+      outline: 2px solid currentColor;
+      outline-offset: 3px;
+    }
+  }
+}
+
+
+/* Administración de contenido: solo pantallas de ordenador */
+@media (max-width: 767px) {
+  .acceso-contenido {
+    display: none;
+  }
+}

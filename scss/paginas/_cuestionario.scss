@@ -1,5 +1,22 @@
 
-// Información de la pregunta
+ // Información de la pregunta
+ .cabecera-pregunta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  #contador,
+  #id-pregunta {
+    margin: 0;
+  }
+
+  #id-pregunta {
+    text-align: right;
+    font-size: 0.8rem;
+  }
+}
+
 #contador,
 #id-pregunta {
   font-size: 0.9rem;

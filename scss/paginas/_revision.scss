@@ -3,11 +3,28 @@
 
 #revision {
   width: 100%;
-  max-width: 850px;
+  max-width: 760px;
   margin: 20px auto;
 }
 
 /* Contador e identificador */
+.cabecera-revision {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+
+  #contador-revision,
+  #id-revision {
+    margin: 0;
+  }
+
+  #id-revision {
+    text-align: right;
+    font-size: 0.8rem;
+  }
+}
+
 #contador-revision,
 #id-revision {
   font-size: 0.9rem;
@@ -31,12 +48,17 @@
 
 /* Imagen */
 #imagen-revision {
-  margin: 16px 0;
+  margin: 1rem 0;
+  text-align: center;
 
   img {
     display: block;
     max-width: 100%;
+    max-height: 400px;
+    width: auto;
     height: auto;
+    margin: 0 auto;
+    object-fit: contain;
     border-radius: 8px;
   }
 }
@@ -64,7 +86,6 @@
     border-color: #16a34a;
   }
 }
-
 
 /* Explicación */
 #explicacion-revision {
@@ -104,116 +125,98 @@
   }
 }
 
-
 /* ==================================
    Formulario de edición de preguntas
    ================================== */
 
-   #formulario-edicion {
-    margin: 24px 0;
-    padding: 22px;
-    background: #f8fafc;
+#formulario-edicion {
+  margin: 24px 0;
+  padding: 22px;
+  background: #f8fafc;
+  border: 1px solid var(--borde);
+  border-radius: 10px;
+
+  // Mantener oculto el formulario cuando corresponda
+  &[hidden] {
+    display: none;
+  }
+
+  h3 {
+    margin: 20px 0 12px;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+
+  label {
+    display: block;
+    margin: 14px 0 7px;
+    font-weight: 600;
+    color: var(--texto);
+  }
+
+  textarea,
+  select {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 12px;
+    font: inherit;
+    color: var(--texto);
+    background: #ffffff;
     border: 1px solid var(--borde);
-    border-radius: 10px;
-  
-    // Mantener oculto el formulario cuando corresponda
-    &[hidden] {
-      display: none;
-    }
-  
-    h3 {
-      margin: 20px 0 12px;
-  
-      &:first-child {
-        margin-top: 0;
-      }
-    }
-  
-    label {
-      display: block;
-      margin: 14px 0 7px;
-      font-weight: 600;
-      color: var(--texto);
-    }
-  
-    textarea,
-    select {
-      display: block;
-      width: 100%;
-      box-sizing: border-box;
-      padding: 12px;
-      font: inherit;
-      color: var(--texto);
-      background: #ffffff;
-      border: 1px solid var(--borde);
-      border-radius: 8px;
-  
-      &:focus {
-        outline: 2px solid var(--primario);
-        outline-offset: 2px;
-      }
-    }
-  
-    textarea {
-      resize: vertical;
-      line-height: 1.5;
+    border-radius: 8px;
+
+    &:focus {
+      outline: 2px solid var(--primario);
+      outline-offset: 2px;
     }
   }
-  
-  /* Opciones de respuesta editables */
-  #editar-opciones {
-    display: grid;
-    gap: 8px;
+
+  textarea {
+    resize: vertical;
+    line-height: 1.5;
   }
-  
-  /* Botones Guardar y Cancelar */
+}
+
+/* Opciones de respuesta editables */
+#editar-opciones {
+  display: grid;
+  gap: 8px;
+}
+
+/* Botones Guardar y Cancelar */
+.acciones-edicion {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  margin-top: 24px;
+
+  button {
+    width: 100%;
+  }
+}
+
+/* Adaptación a móviles */
+@media (max-width: 600px) {
+  #formulario-edicion {
+    padding: 14px;
+  }
+
   .acciones-edicion {
-    display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
-    gap: 12px;
-    margin-top: 24px;
-  
-    button {
-      width: 100%;
-    }
+    grid-template-columns: 1fr;
   }
-  
-  /* Adaptación a móviles */
-  @media (max-width: 600px) {
-    #formulario-edicion {
-      padding: 14px;
-    }
-  
-    .acciones-edicion {
-      grid-template-columns: 1fr;
-    }
-  }
-  
-  /* Ocultar edición en pantallas pequeñas */
+}
+
+/* Ocultar edición en pantallas pequeñas */
 @media (max-width: 600px) {
   #editar-revision {
     display: none;
   }
 }
 
-// Imágenes de las preguntas
-#imagen-revision {
-  margin: 1rem 0;
-  text-align: center;
-
-  img {
-    display: block;
-    max-width: 100%;
-    max-height: 400px;
-    width: auto;
-    height: auto;
-    margin: 0 auto;
-    object-fit: contain;
-    border-radius: 8px;
-  }
-}
-
-// Campo de imagen del editor
+/* Campo de imagen del editor */
 #editar-imagen {
   display: block;
   width: 100%;
@@ -225,7 +228,7 @@
   font: inherit;
 }
 
-// Vista previa
+/* Vista previa */
 #vista-previa-imagen {
   margin: 1rem 0;
   text-align: center;
@@ -241,6 +244,8 @@
     border-radius: 8px;
   }
 }
+
+/* Exportar cambios */
 #exportar-cambios {
   display: block;
   width: 100%;
@@ -269,4 +274,32 @@
   #exportar-cambios {
     display: none;
   }
+}
+
+/* Tres tarjetas independientes de Estudio y Revisión */
+#revision {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.tarjeta-pregunta-revision,
+.tarjeta-explicacion-revision,
+.tarjeta-acciones-revision {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+/* Separación de los botones de navegación */
+.tarjeta-acciones-revision .navegacion-revision {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* Título de la explicación */
+.tarjeta-explicacion-revision h3 {
+  margin-top: 0;
 }

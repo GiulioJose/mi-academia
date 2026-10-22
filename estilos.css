@@ -145,6 +145,7 @@ label[for=cantidad] {
   box-sizing: border-box;
 }
 
+/* Tarjetas de selección de módulos y temas */
 #modulos,
 #temas {
   width: 100%;
@@ -155,16 +156,19 @@ label[for=cantidad] {
   margin: 12px auto 24px;
 }
 
+/* Tarjetas de Autoevaluación y Revisión */
 #cuestionario,
-#resultados-finales {
+#resultados-finales,
+#revision {
+  width: 100%;
   background: var(--superficie);
   border: 1px solid var(--borde);
   border-radius: var(--radio);
   padding: 24px;
   margin: 20px auto;
-  width: 100%;
 }
 
+/* Ocultar elementos con atributo hidden */
 [hidden] {
   display: none !important;
 }
@@ -188,6 +192,62 @@ label[for=cantidad] {
 #repasar-falladas:hover:not(:disabled),
 #repasar-revision:hover:not(:disabled) {
   background: #eaf0f6;
+}
+
+/* Tarjetas de Inicio y Mis repasos */
+.tarjeta-inicio,
+.tarjeta-repasos {
+  width: 100%;
+  max-width: 760px;
+  margin: 20px auto;
+  padding: 24px;
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+}
+
+.acceso-contenido {
+  margin: 24px auto;
+  text-align: center;
+}
+.acceso-contenido .boton-contenido {
+  display: inline-block;
+  padding: 12px 20px;
+  border-radius: var(--radio);
+  border: 1px solid var(--borde);
+  background: var(--superficie);
+  color: var(--texto);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+.acceso-contenido .boton-contenido:hover {
+  background: var(--fondo);
+}
+.acceso-contenido .boton-contenido:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* Administración de contenido: solo pantallas de ordenador */
+@media (max-width: 767px) {
+  .acceso-contenido {
+    display: none;
+  }
+}
+.cabecera-pregunta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.cabecera-pregunta #contador,
+.cabecera-pregunta #id-pregunta {
+  margin: 0;
+}
+.cabecera-pregunta #id-pregunta {
+  text-align: right;
+  font-size: 0.8rem;
 }
 
 #contador,
@@ -288,11 +348,26 @@ label[for=cantidad] {
 /* Página de estudio y revisión */
 #revision {
   width: 100%;
-  max-width: 850px;
+  max-width: 760px;
   margin: 20px auto;
 }
 
 /* Contador e identificador */
+.cabecera-revision {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+.cabecera-revision #contador-revision,
+.cabecera-revision #id-revision {
+  margin: 0;
+}
+.cabecera-revision #id-revision {
+  text-align: right;
+  font-size: 0.8rem;
+}
+
 #contador-revision,
 #id-revision {
   font-size: 0.9rem;
@@ -316,12 +391,17 @@ label[for=cantidad] {
 
 /* Imagen */
 #imagen-revision {
-  margin: 16px 0;
+  margin: 1rem 0;
+  text-align: center;
 }
 #imagen-revision img {
   display: block;
   max-width: 100%;
+  max-height: 400px;
+  width: auto;
   height: auto;
+  margin: 0 auto;
+  object-fit: contain;
   border-radius: 8px;
 }
 
@@ -463,21 +543,7 @@ label[for=cantidad] {
     display: none;
   }
 }
-#imagen-revision {
-  margin: 1rem 0;
-  text-align: center;
-}
-#imagen-revision img {
-  display: block;
-  max-width: 100%;
-  max-height: 400px;
-  width: auto;
-  height: auto;
-  margin: 0 auto;
-  object-fit: contain;
-  border-radius: 8px;
-}
-
+/* Campo de imagen del editor */
 #editar-imagen {
   display: block;
   width: 100%;
@@ -489,6 +555,7 @@ label[for=cantidad] {
   font: inherit;
 }
 
+/* Vista previa */
 #vista-previa-imagen {
   margin: 1rem 0;
   text-align: center;
@@ -504,6 +571,7 @@ label[for=cantidad] {
   border-radius: 8px;
 }
 
+/* Exportar cambios */
 #exportar-cambios {
   display: block;
   width: 100%;
@@ -527,6 +595,164 @@ label[for=cantidad] {
 @media (max-width: 768px) {
   #exportar-cambios {
     display: none;
+  }
+}
+/* Tres tarjetas independientes de Estudio y Revisión */
+#revision {
+  background: transparent;
+  border: none;
+  padding: 0;
+}
+
+.tarjeta-pregunta-revision,
+.tarjeta-explicacion-revision,
+.tarjeta-acciones-revision {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+
+/* Separación de los botones de navegación */
+.tarjeta-acciones-revision .navegacion-revision {
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+
+/* Título de la explicación */
+.tarjeta-explicacion-revision h3 {
+  margin-top: 0;
+}
+
+#administracion-contenido {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+}
+#administracion-contenido .boton-volver {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 24px;
+  padding: 10px 16px;
+  background: var(--superficie);
+  color: var(--texto);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  text-decoration: none;
+  font-weight: 600;
+  transition: background 0.2s ease;
+}
+#administracion-contenido .boton-volver:hover {
+  background: var(--fondo);
+}
+#administracion-contenido .boton-volver:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+#administracion-contenido > h2 {
+  margin-top: 8px;
+  color: var(--secundario);
+  font-weight: 500;
+}
+#administracion-contenido > p {
+  color: var(--secundario);
+  margin-bottom: 28px;
+}
+#administracion-contenido .tarjeta-contenido {
+  background: var(--superficie);
+  border: 1px solid var(--borde);
+  border-radius: var(--radio);
+  padding: 24px;
+  margin-bottom: 20px;
+}
+#administracion-contenido .tarjeta-contenido h3 {
+  margin: 0 0 18px;
+  font-size: 1.1rem;
+  color: var(--texto);
+}
+#administracion-contenido .tarjeta-contenido p {
+  color: var(--secundario);
+}
+#administracion-contenido .tarjeta-contenido select {
+  max-width: none;
+  margin-bottom: 16px;
+}
+#administracion-contenido .tarjeta-contenido button {
+  margin: 0 10px 10px 0;
+}
+#administracion-contenido .tarjeta-contenido button[id^=eliminar-] {
+  background: transparent;
+  color: var(--error);
+  border-color: var(--error);
+}
+#administracion-contenido .tarjeta-contenido button[id^=eliminar-]:hover:not(:disabled) {
+  background: #fff1f0;
+}
+#administracion-contenido #ejemplo-pregunta {
+  width: 100%;
+  min-height: 100px;
+  padding: 20px;
+  margin: 18px 0;
+  background: var(--fondo);
+  border: 1px solid var(--borde);
+  border-radius: 9px;
+  color: var(--texto);
+  font-family: Consolas, "Courier New", monospace;
+  font-size: 0.9rem;
+  line-height: 1.6;
+  white-space: pre;
+  overflow-x: auto;
+}
+#administracion-contenido #mensaje-contenido {
+  margin-top: 16px;
+  margin-bottom: 0;
+  color: var(--exito);
+  overflow-wrap: anywhere;
+}
+#administracion-contenido #mensaje-contenido:empty {
+  display: none;
+}
+
+@media (max-width: 600px) {
+  #administracion-contenido .tarjeta-contenido {
+    padding: 18px;
+  }
+  #administracion-contenido .tarjeta-contenido button {
+    width: 100%;
+    margin-right: 0;
+  }
+}
+/* Aviso de administración en pantallas pequeñas */
+#aviso-contenido-movil {
+  display: none;
+}
+
+@media (max-width: 767px) {
+  #administracion-contenido {
+    display: none;
+  }
+  #aviso-contenido-movil {
+    display: block;
+    max-width: 500px;
+    margin: 60px auto;
+    padding: 24px;
+    text-align: center;
+    background: var(--superficie);
+    border: 1px solid var(--borde);
+    border-radius: var(--radio);
+  }
+  #aviso-contenido-movil h2 {
+    margin-bottom: 16px;
+  }
+  #aviso-contenido-movil p {
+    margin-bottom: 20px;
+    color: var(--secundario);
+  }
+  #aviso-contenido-movil a {
+    color: var(--texto);
+    font-weight: 600;
   }
 }
 @media (min-width: 900px) {

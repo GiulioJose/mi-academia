@@ -11,86 +11,103 @@
 <body>
 
   <h1>Mi Academia</h1>
-  <p>Estudiar y revisar preguntas</p>
 
   <div id="revision">
 
-    <p id="contador-revision"></p>
-    <p id="id-revision"></p>
+    <!-- TARJETA 1: Pregunta y respuestas -->
+    <section class="tarjeta-pregunta-revision">
 
-    <h2 id="pregunta-revision"></h2>
-
-    <div id="imagen-revision"></div>
-
-    <div id="opciones-revision"></div>
-
-    <h3>Explicación</h3>
-    <p id="explicacion-revision"></p>
-
-    <button id="editar-revision" type="button">
-      Editar pregunta
-    </button>
-
-    <!-- Formulario de edición -->
-    <section id="formulario-edicion" hidden>
-
-      <h3>Editar pregunta</h3>
-
-      <label for="editar-enunciado">Enunciado</label>
-      <textarea id="editar-enunciado" rows="4"></textarea>
-
-      <h3>Opciones de respuesta</h3>
-      <div id="editar-opciones"></div>
-
-      <label for="editar-correcta">Respuesta correcta</label>
-      <select id="editar-correcta"></select>
-
-      <h3>Explicación</h3>
-      <textarea id="editar-explicacion" rows="5"></textarea>
-
-      <!-- Imagen de la pregunta -->
-      <h3>Imagen de la pregunta</h3>
-
-      <label for="editar-imagen">Ruta de imagen</label>
-      <input id="editar-imagen" type="text" placeholder="img/red_1.png" autocomplete="off">
-
-      <p>
-        Deja el campo vacío si la pregunta no necesita imagen.
-      </p>
-
-      <div id="vista-previa-imagen"></div>
-
-      <div class="acciones-edicion">
-        <button id="guardar-edicion" type="button">
-          Guardar cambios
-        </button>
-
-        <button id="cancelar-edicion" type="button">
-          Cancelar
-        </button>
+      <div class="cabecera-revision">
+        <p id="contador-revision"></p>
+        <p id="id-revision"></p>
       </div>
+
+      <h2 id="pregunta-revision"></h2>
+
+      <div id="imagen-revision"></div>
+
+      <div id="opciones-revision"></div>
 
     </section>
 
-    <button id="exportar-cambios" type="button" disabled>
-      Exportar cambios (0)
-    </button>
+    <!-- TARJETA 2: Explicación -->
+    <section class="tarjeta-explicacion-revision">
 
-    <button id="quitar-revision" type="button">
-      Quitar de pendientes de revisión
-    </button>
+      <h3>Explicación</h3>
 
-    <div class="navegacion-revision">
-      <button id="anterior-revision" type="button">
-        Anterior
+      <p id="explicacion-revision"></p>
+
+    </section>
+
+    <!-- TARJETA 3: Navegación y acciones -->
+    <section class="tarjeta-acciones-revision">
+
+      <div class="navegacion-revision">
+        <button id="anterior-revision" type="button">
+          Anterior
+        </button>
+
+        <button id="siguiente-revision" type="button">
+          Siguiente
+        </button>
+      </div>
+
+      <button id="quitar-revision" type="button">
+        Quitar de pendientes de revisión
       </button>
 
-      <button id="siguiente-revision" type="button">
-        Siguiente
+      <button id="editar-revision" type="button">
+        Editar pregunta
       </button>
-    </div>
 
-    <p id="mensaje-revision" role="status"></p>
+      <!-- Formulario de edición -->
+      <section id="formulario-edicion" hidden>
+
+        <h3>Editar pregunta</h3>
+
+        <label for="editar-enunciado">Enunciado</label>
+        <textarea id="editar-enunciado" rows="4"></textarea>
+
+        <h3>Opciones de respuesta</h3>
+        <div id="editar-opciones"></div>
+
+        <label for="editar-correcta">Respuesta correcta</label>
+        <select id="editar-correcta"></select>
+
+        <h3>Explicación</h3>
+        <textarea id="editar-explicacion" rows="5"></textarea>
+
+        <!-- Imagen de la pregunta -->
+        <h3>Imagen de la pregunta</h3>
+
+        <label for="editar-imagen">Ruta de imagen</label>
+        <input id="editar-imagen" type="text" placeholder="img/red_1.png" autocomplete="off">
+
+        <p>
+          Deja el campo vacío si la pregunta no necesita imagen.
+        </p>
+
+        <div id="vista-previa-imagen"></div>
+
+        <div class="acciones-edicion">
+          <button id="guardar-edicion" type="button">
+            Guardar cambios
+          </button>
+
+          <button id="cancelar-edicion" type="button">
+            Cancelar
+          </button>
+        </div>
+
+      </section>
+
+      <button id="exportar-cambios" type="button" disabled>
+        Exportar cambios (0)
+      </button>
+
+      <p id="mensaje-revision" role="status"></p>
+
+    </section>
 
   </div>
 
